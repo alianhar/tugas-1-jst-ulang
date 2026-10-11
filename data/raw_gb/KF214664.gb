@@ -1,0 +1,131 @@
+
+LOCUS       KF214664                3220 bp    DNA     circular VRL 17-JUN-2015
+DEFINITION  Hepatitis B virus isolate IND-2008-13, complete genome.
+ACCESSION   KF214664
+VERSION     KF214664.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3220)
+  AUTHORS   Haldipur,B.P., Walimbe,A.M. and Arankalle,V.A.
+  TITLE     Circulation of genotype-I hepatitis B virus in the primitive tribes
+            of Arunachal Pradesh in early sixties and molecular evolution of
+            genotype-I
+  JOURNAL   Infect. Genet. Evol. 27, 366-374 (2014)
+   PUBMED   25149225
+REFERENCE   2  (bases 1 to 3220)
+  AUTHORS   Arankalle,V.A., Haldipur,B.P. and Walimbe,A.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2013) Hepatitis, National Institute of Virology,
+            130/1, Sus Road, Pashan, Pune, Maharashtra 411021, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3220
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="IND-2008-13"
+                     /isolation_source="Human serum"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="India"
+                     /collection_date="1963"
+                     /note="genotype: A"
+     gene            join(2307..3220,1..1623)
+                     /gene="P"
+     misc_feature    join(2307..3220,1..1623)
+                     /gene="P"
+                     /note="nonfunctional polymerase due to mutation"
+     gene            join(2853..3220,1..835)
+                     /gene="preS1/preS2/S"
+     CDS             join(2853..3220,1..835)
+                     /gene="preS1/preS2/S"
+                     /codon_start=1
+                     /product="envelope protein"
+                     /protein_id="AIB09375.1"
+                     /translation="MGGWSIKPRQGMGTNLSVPNPLGFFPDHQLDPAFGANSNNPDWD
+                     FNPIKDHWPQANQVGVGAFGPGFTPPHGGVLGWSPQAQGILATVPAVPPPASTNRQSG
+                     RQPTPISPPLRDSHPQAMQWNSTAFHQALQDPRVRGLYFPAGGSSSGTLNPVPTIASQ
+                     ISSISSRIGDPAPNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGG
+                     SPVCLGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLIPGSTTTSTGPCKTCTTPAQGNSMFHSCCCTKPTDGNCTCIPIPSSWAFAK
+                     YLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPSLYNILSPFIPLLPI
+                     FFCLWVYI"
+     gene            1374..1838
+                     /gene="X"
+     CDS             1374..1838
+                     /gene="X"
+                     /codon_start=1
+                     /product="HBx"
+                     /protein_id="AIB09376.1"
+                     /translation="MAARLYCQLDSSRDVLCLRPVGAESRGRPLARPLGTVSSPSPSA
+                     VPTDHGAHLSLRGLPVCAFSSAGPCALRFTSARCMETTVNAHQVLPKVLHKRTLGLSA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLMVFVLGGCRHKLVCAPAPCNFFTSA"
+     gene            1814..2457
+                     /gene="preC/C"
+     misc_feature    1814..2457
+                     /gene="preC/C"
+                     /note="nonfunctional HBeAg due to mutation"
+     misc_feature    1901..2457
+                     /gene="preC/C"
+                     /note="nonfunctional core protein due to mutation"
+ORIGIN      
+        1 ttccacagct ttccaccaag ctctgcaaga tcccagagtc aggggcctgt attttcctgc
+       61 tggtggctcc agttcaggaa cactcaaccc tgttccaact attgcctctc aaatctcgtc
+      121 aatctcctcg aggattgggg accctgcgcc gaacatggag aacatcacat caggattcct
+      181 aggacccctg ctcgtgttac aggcggggtt tttcttgttg acaagaatcc tcacaatacc
+      241 gcagagtcta gactcgtggt ggacttctct caattttcta gggggatcac ccgtgtgtct
+      301 tggccaaaat tcgcagtccc caacctccaa tcactcacca acctcctgtc ctccaatttg
+      361 tcctggttat cgctggatgt gtctgcggcg ttttatcata ttcctcttca tcctgctgct
+      421 atgcctcatc ttcttattgg ttcttctgga ttatcaaggt atgttgcccg tttgtcctct
+      481 aattccagga tcaacaacaa ccagcacggg accctgcaaa acctgcacga ctcctgctca
+      541 aggcaactct atgtttcact catgttgctg tacaaaacct acggatggaa attgcacctg
+      601 tattcccatc ccatcatctt gggctttcgc aaaataccta tgggagtggg cctcagtccg
+      661 tttctcttgg ctcagtttac tagtgccatt tgttcagtgg ttcgtagggc tttcccccac
+      721 tgtttggctt tcagctatat ggatgatgtg gtactggggg ccaagtctgt acaacatctt
+      781 gagtcccttt ataccgctgt taccaatttt cttttgtctt tgggtataca tttaaaccct
+      841 aacaaaacaa agagatgggg ttattccctg aatttcatgg ggtatgtaat tggaagttgg
+      901 ggtacattgc cacaggatca tattgtacaa aaaatcaaac actgttttcg aaaacttcct
+      961 gtcaatcgac ctattgattg gaaagtatgt cagagaattg tgggtctttt gggctttgcc
+     1021 gctccattta cacaatgtgg ttaccctgct ttaatgcctt tatatgcatg tatacaagcg
+     1081 aaacaggcct ttactttctc gccaacttac aaggcctttc taagtaaaca gtatatgaac
+     1141 ctttaccccg ttgcccggca acggcctggt ctgtgccaag tgtttgctga cgcaaccccc
+     1201 actggctggg gcttggccat cggccatcag cgcatgcgag gaacctttgt ggctcctctg
+     1261 ccgatccata ctgcggaact cctagccgct tgttttgctc gcagccggtc tggagcaaaa
+     1321 ctcatcggga cggataattc tgtcgtcctt tctcggaaat atacatcatt tccatggctg
+     1381 ctaggttgta ctgccaactg gattcttcgc gggacgtcct ttgtttacgt cccgtcggcg
+     1441 ctgaatcccg cggacgaccc ctcgcgaggc cgcttgggac tgtatcgtcc ccttctccgt
+     1501 ctgccgtacc gaccgaccac ggggcgcacc tctctttacg cggtctcccc gtctgtgcct
+     1561 tctcatctgc cggtccgtgt gcacttcgct tcacctctgc acgttgcatg gagaccaccg
+     1621 tgaacgccca tcaggtcctg cccaaggtct tacataagag gactcttgga ctctcagcaa
+     1681 tgtcaacgac cgaccttgag gcctacttca aagactgtgt gtttaaagac tgggaggagt
+     1741 tgggggagga gattaggtta atggtctttg tattaggagg ctgtaggcat aaattggtct
+     1801 gcgcaccagc accatgcaac tttttcacct ctgcctaatc atctcatgta catgtcccac
+     1861 ttttcaagcc tccaagctgt gccttggatg gctttggggc atggacattg acccttataa
+     1921 agaatttgga gctactgtgg agttactctc atttttgcct tctgacttct ttccttccgt
+     1981 ccgggatcta ctagacacag cctcagctct atatcgggaa gccttagagt ctcctgagca
+     2041 ttgctcacct caccatacag cactcaggca agccattctc tgttgggggg aattagtgac
+     2101 tctagctacc tgggtgggta ataatttgga agatccagca tccagggatc tagtagtcaa
+     2161 ttatgttaat actaacatgg gcctaaagat caggcaatta ttgtggtttc atatttcttg
+     2221 ccttactttt ggaagagaaa ctgtccttga gtatttggtc tctttcggag tgtggattcg
+     2281 cactcctcca gcctatagac caccaaatgc ccctatctta tcaacacttc cggaaactac
+     2341 tgttgttaga cgacggaccg aggcaggtcc cctagaagaa gaactccctc gcctcgcaga
+     2401 cgaagatctc aatcgccgcg tcgcagaaga tctcaatctc gggaatctca atgttagtat
+     2461 tccttggact cataaggtgg gaaattttac tgggctttat tcttctactg tccctatctt
+     2521 taatccagaa tggcaaaccc cttcttttcc taaaattcat ttacatgaag acattgctaa
+     2581 taggtgtcag caatttgtag gccctctcac tgtaaatgaa aaaagaagac tgaaattaat
+     2641 tatgcctgct aggttttatc ctaacagcac aaaatatttg cctttagaca aagggattaa
+     2701 accttattat cctgatcatg tagttaatca ttactttcaa acccgacatt atttacatac
+     2761 tctttggaag gctgggattc tatataagag agaaactaca cgcagtgcct cattttgtgg
+     2821 gtcaccatat tcttgggaac aagagctaca tcatgggagg ttggtccatc aaacctcgcc
+     2881 aaggcatggg gacgaacctt tctgttccca atcctctggg attctttccc gatcatcagt
+     2941 tggaccctgc attcggagcc aattcaaaca atccagattg ggacttcaac cccatcaagg
+     3001 accactggcc acaagccaac caggtaggag tgggagcatt cgggccaggg ttcactcccc
+     3061 cacacggagg tgttttgggg tggagccctc aggctcaggg catattggcc acagtgccag
+     3121 cagtgcctcc tcctgcctcc accaatcggc agtcaggaag gcagcctact cccatctctc
+     3181 cacctctaag agacagtcat cctcaggcca tgcagtggaa
+//

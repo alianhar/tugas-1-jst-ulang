@@ -1,0 +1,162 @@
+
+LOCUS       DQ788725                3221 bp    DNA     circular VRL 20-OCT-2006
+DEFINITION  Hepatitis B virus clone S1, complete genome.
+ACCESSION   DQ788725
+VERSION     DQ788725.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3221)
+  AUTHORS   Marschenz,S., Endres,A.S., Brinckmann,A., Heise,T., Kristiansen,G.,
+            Nurnberg,P., Kruger,D.H., Gunther,S. and Meisel,H.
+  TITLE     Functional analysis of complex hepatitis B virus variants
+            associated with development of liver cirrhosis
+  JOURNAL   Gastroenterology 131 (3), 765-780 (2006)
+   PUBMED   16952546
+REFERENCE   2  (bases 1 to 3221)
+  AUTHORS   Marschenz,S. and Meisel,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2006) Institute of Virology, Charite -
+            Universitaetsmedizin Berlin, Campus Mitte, Chariteplatz 1, Berlin
+            10117, Germany
+FEATURES             Location/Qualifiers
+     source          1..3221
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="serum 07/92"
+                     /isolation_source="renal transplant recipient with chronic
+                     HBeAg positive Hepatitis B and development of liver
+                     cirrhosis"
+                     /db_xref="taxon:10407"
+                     /clone="S1"
+                     /geo_loc_name="Germany"
+                     /note="genotype: A"
+     gene            join(2307..3221,1..1623)
+                     /gene="P"
+     CDS             join(2307..3221,1..1623)
+                     /gene="P"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="ABH04392.1"
+                     /translation="MPLSYQHFRKLLLLDDGTEAGPLEEELPRLADADLNRRVAEELN
+                     LGNLNVSIPWTHKVGNFTGLYSSTVPVFNPEWQTPSFPKIHLQEDIINRCQQFVGPLT
+                     VNEKRRLKLIMPARFYPTHTKYFPLDKGIKPYYPDQVVNHYFQTRHYLHTLWKAGILY
+                     KRETTRSASFCGSPYSWEQELQHGRLVIKTSQRHGDESFCSQPSGILSRSSVGPCIRS
+                     QLKQSRLGLQPHQGPLASSQSGRSGSIRARAHPSTWRYFGVEPSGSGHIDHSVNNSSS
+                     CLHQSAVRKAAYSHLSTSKRQSSSGHAVEFHCRPPSSAGSQSQGSVFSCWWLQFRNSK
+                     PCSEYCLSHIVNLREDWGPCDEHGEHHIRIPRTPARVTGGVFLVDKNPHNTAESRLVV
+                     DFSQFSRGITRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHIPLHPAAMPHLL
+                     IGSSGLSRYVARLSSNSRINNNQYGTMQNLHDSCSRQLYVSLMLLYKTYGWKLHLYSH
+                     PIVLGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHRE
+                     ALYTAVTNFLLSLGIHLNPNKTKRWGYSLNFMGYVIGSWGTLPQDHIVQKIKHCFRKL
+                     PVNRPIDWKVCQRIVGLLGFAAPFTQCGYPALMPLYACIQAKQAFTFSPTYKAFLSKQ
+                     YMNLYPVARQRPGLCQVFADATPTGWGLAIGHQRMRGTFVAPLPIHTAELLAACFARS
+                     RSGAKLIGTDNSVVLSRKYTSFPWLLGCTANWILRGTSFVYVPSALNPADDPSRGRLG
+                     LSRPLLRLPFQPTTGRTSLYAVSPSVPSHLPVRVHFASPLHVAWRPP"
+     gene            join(2854..3221,1..835)
+                     /gene="S"
+     CDS             join(2854..3221,1..835)
+                     /gene="S"
+                     /note="preS/S; middle surface protein cannot be expressed
+                     due to a preS2 start codon mutation (aa 120 M>T)"
+                     /codon_start=1
+                     /product="large surface protein"
+                     /protein_id="ABH04393.1"
+                     /translation="MGGWSSKPRKGMGTNLSVPNPLGFFPDHQLDPAFGANSNNPDWD
+                     FNPIKDHWPAANQVGVGAFGPGLTPPHGGILGWSPQAQGILTTVSTIPPPASTNRQSG
+                     RQPTPISPPLRDSHPQATQWNSTAVHQALQDPRVRGLYFPAGGSSSGTVNPAPNIASH
+                     ISSISARTGDPVTNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGG
+                     SPVCLGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCPIFLLVLLDYQG
+                     MLPVCPLIPGSTTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAK
+                     YLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPSLYSIVRPFIPLLPI
+                     FFCLWVYI"
+     CDS             155..835
+                     /gene="S"
+                     /codon_start=1
+                     /product="small surface protein"
+                     /protein_id="ABH04396.1"
+                     /translation="MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGG
+                     SPVCLGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCPIFLLVLLDYQG
+                     MLPVCPLIPGSTTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAK
+                     YLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPSLYSIVRPFIPLLPI
+                     FFCLWVYI"
+     gene            1374..1838
+                     /gene="X"
+     CDS             1374..1838
+                     /gene="X"
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="ABH04395.1"
+                     /translation="MAARLYCQLDPSRDVLCLRPVGAESRGRPLSGPLGTLSSPSPSA
+                     VPADHGAHLSLRGLPVCAFSSAGPCALRFTSARCMETTVNAHQILPKVLHKRTLGLPA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLKVFVLGGCRHKLVCAPAPCNFFTSA"
+     gene            1814..2458
+                     /gene="preC/C"
+     CDS             1814..2458
+                     /gene="preC/C"
+                     /codon_start=1
+                     /product="precore/core protein"
+                     /protein_id="ABH04394.1"
+                     /translation="MQLFHLCLIISCTCPTVQASKLCLGWLWGMDIDPYKEFGATVEL
+                     LSFLPSDFFPSVRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMTLATWVG
+                     NNLQDPASRDLVVNYVNTNMGLKIRQLLWFHISCLTFGRETVLEYLVSFGVWIRTPPA
+                     YRPPNAPILSTLPETTVVRRRDRGRSPRRRTPSPRRRRSQSPRRRRTQSRESQC"
+ORIGIN      
+        1 ttccactgcc gtccaccaag ctctgcagga tcccagagtc aggggtctgt attttcctgc
+       61 tggtggctcc agttcaggaa cagtaaaccc tgctccgaat attgcctctc acatatcgtc
+      121 aatctccgcg aggactgggg accctgtgac gaacatggag aacatcacat caggattcct
+      181 aggacccctg ctcgtgttac aggcggggtt tttcttgttg acaagaatcc tcacaatacc
+      241 gcagagtcta gactcgtggt ggacttctct caattttcta gggggatcac ccgtgtgtct
+      301 tggccaaaat tcgcagtccc caacctccaa tcactcacca acctcctgtc ctccaatttg
+      361 tcctggttat cgctggatgt gtctgcggcg ttttatcata ttcctcttca tcctgctgct
+      421 atgccccatc ttcttattgg ttcttctgga ttatcaaggt atgttgcccg tttgtcctct
+      481 aattccagga tcaacaacaa ccagtacggg accatgcaaa acctgcacga ctcctgctca
+      541 aggcaactct atgtttccct catgttgctg tacaaaacct acggatggaa attgcacctg
+      601 tattcccatc ccatcgtcct gggctttcgc aaaataccta tgggagtggg cctcagtccg
+      661 tttctcttgg ctcagtttac tagtgccatt tgttcagtgg ttcgtagggc tttcccccac
+      721 tgtttggctt tcagctatat ggatgatgtg gtattggggg ccaagtctgt acagcatcgt
+      781 gaggcccttt ataccgctgt taccaatttt cttttgtctc tgggtataca tttaaaccct
+      841 aacaaaacaa aaagatgggg ttattcccta aacttcatgg gttacgtaat tggaagttgg
+      901 ggaacattgc cacaggatca tattgtacaa aagatcaaac actgttttag aaaacttcct
+      961 gttaacaggc ctattgattg gaaagtatgt caaagaattg tgggtctttt gggctttgct
+     1021 gctccattta cacaatgtgg atatcctgcc ttaatgccct tgtatgcatg tatacaagct
+     1081 aaacaggctt ttactttctc gccaacttac aaggcctttc taagtaaaca gtacatgaac
+     1141 ctttaccccg ttgctcggca acggcctggt ctgtgccaag tgtttgctga cgcaaccccc
+     1201 actggctggg gcttggccat aggccatcag cgcatgcgtg gaacctttgt ggctcctctg
+     1261 ccgatccata ctgcggaact cctagccgct tgttttgctc gcagccggtc tggagcaaaa
+     1321 ctcatcggaa ctgacaattc tgtcgtcctc tcgcggaaat atacatcgtt tccatggctg
+     1381 ctaggctgta ctgccaactg gatccttcgc gggacgtcct ttgtttacgt cccgtcggcg
+     1441 ctgaatcccg cggacgaccc ctctcggggc cgcttgggac tctctcgtcc ccttctccgt
+     1501 ctgccgttcc agccgaccac ggggcgcacc tctctttacg cggtctcccc gtctgtgcct
+     1561 tctcatctgc cggtccgtgt gcacttcgct tcacctctgc acgttgcatg gagaccaccg
+     1621 tgaacgccca tcagatcctg cccaaggtct tacataagag gactcttgga ctcccagcaa
+     1681 tgtcaacgac cgaccttgag gcctacttca aagactgtgt gtttaaggac tgggaggagc
+     1741 tgggggagga gattaggtta aaggtctttg tattaggagg ctgtaggcat aaattggtct
+     1801 gcgcaccagc accatgcaac tttttcacct ctgcctaatc atctcttgta catgtcccac
+     1861 tgttcaagcc tccaagctgt gccttgggtg gctttggggc atggacattg acccttataa
+     1921 agaatttgga gctactgtgg agttactctc gtttttgcct tctgacttct ttccttccgt
+     1981 aagagatctc ctagacaccg cctcagctct gtatcgagaa gccttagagt cgcccgagca
+     2041 ttgctcacct caccatactg cactcaggca agccattctc tgctgggggg aattgatgac
+     2101 tctagctacc tgggtgggta ataatttgca agatccagca tccagggatc tagtagtcaa
+     2161 ttatgttaat actaacatgg gtttaaagat caggcaacta ttgtggtttc atatatcttg
+     2221 ccttactttt gggagagaga ctgtacttga atatttggtc tctttcggag tgtggattcg
+     2281 cactcctcca gcctatagac caccaaatgc ccctatctta tcaacacttc cggaaactac
+     2341 tgttgttaga cgacgggacc gaggcaggtc ccctagaaga agaactccct cgcctcgcag
+     2401 acgcagatct caatcgccgc gtcgcagaag aactcaatct cgggaatctc aatgttagta
+     2461 ttccttggac tcataaggtg ggaaacttta ctgggcttta ttcctctaca gtacctgtct
+     2521 ttaatcctga atggcaaact ccttcctttc ctaagattca tttacaagag gacattatta
+     2581 ataggtgtca acaatttgtg ggccctctca ctgtaaatga aaagagaaga ttgaaattaa
+     2641 ttatgcctgc tagattctat cctacccaca ctaaatattt tcccttagac aaaggaatta
+     2701 aaccttatta tccagatcag gtagttaatc attacttcca aaccagacat tatttacata
+     2761 ctctttggaa ggctggtatt ctatataaga gggaaaccac acgtagcgca tcattttgcg
+     2821 ggtcaccata ttcttgggaa caagagctac agcatgggag gttggtcatc aaaacctcgc
+     2881 aaaggcatgg ggacgaatct ttctgttccc aaccctctgg gattctttcc cgatcatcag
+     2941 ttggaccctg cattcggagc caactcaaac aatccagatt gggacttcaa ccccatcaag
+     3001 gaccactggc cagcagccaa tcaggtagga gtgggagcat tcgggccagg gctcacccct
+     3061 ccacatggcg gtattttggg gtggagccct caggctcagg gcatattgac cacagtgtca
+     3121 acaattcctc ctcctgcctc caccaatcgg cagtcaggaa ggcagcctac tcccatctct
+     3181 ccacctctaa gagacagtca tcctcaggcc acgcagtgga a
+//

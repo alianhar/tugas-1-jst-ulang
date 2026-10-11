@@ -1,0 +1,126 @@
+
+LOCUS       EU939632                3134 bp    DNA     circular VRL 26-SEP-2013
+DEFINITION  Hepatitis B virus isolate C130, complete genome.
+ACCESSION   EU939632
+VERSION     EU939632.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3134)
+  AUTHORS   Xu,Z., Ren,X., Liu,Y., Li,X., Bai,S., Zhong,Y., Wang,L., Mao,P.,
+            Wang,H., Xin,S., Wong,V.W., Chan,H.L., Zoulim,F. and Xu,D.
+  TITLE     Association of hepatitis B virus mutations in basal core promoter
+            and precore regions with severity of liver disease: an
+            investigation of 793 Chinese patients with mild and severe chronic
+            hepatitis B and acute-on-chronic liver failure
+  JOURNAL   J. Gastroenterol. 46 (3), 391-400 (2011)
+   PUBMED   20848146
+REFERENCE   2  (bases 1 to 3134)
+  AUTHORS   Xu,Z., Ren,X., Liu,Y., Li,X., Dai,J., Zhong,Y. and Xu,D.
+  TITLE     Hepatitis B virus DNA complete genome from acute-on-chronic liver
+            failure patients
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 3134)
+  AUTHORS   Xu,Z., Ren,X., Liu,Y., Li,X., Dai,J., Zhong,Y. and Xu,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2008) Institute of Infectious Diseases, The 302
+            Hospital of PLA, Viral Hepatitis Research Laboratory, #100 Xi Si
+            Huan Middle Road, Beijing 100039, China
+FEATURES             Location/Qualifiers
+     source          1..3134
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /serotype="Adrq-"
+                     /isolate="C130"
+                     /isolation_source="serum from acute-on-chronic liver
+                     failure patients"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="China"
+                     /collection_date="22-Nov-2006"
+                     /note="genotype: B"
+     CDS             join(2290..3134,1..1606)
+                     /note="contains deletion"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="ACH57899.1"
+                     /translation="MPLSYQHFRKLLLLDEEAGPLEEELPRLADEGLNRRVAEDLNLG
+                     NLNVSIPWTHKVGNFTGLYSSTVPCFNPKWQTPSFPDIHLQEDIVDRCKQFVGPLTVN
+                     ENRRLKLIMPARFYPNVTKYLPLDKGIKPYYPEHVVNHYFQTRHYLHTLWKAGILYKR
+                     ESTRSASFYGSPYSWEQDLQHGRLVFQTSKRHGDKSFCPQSPGILPRSSVGPCIQSQL
+                     RKSRLGPQPAQGQLAGRQQGGSGSIRARVHPSPWGTVGVKPSGSGPTHNCASSSSSCL
+                     HQSAVRNSSRSQSQGPELSCWWLQFRNSEPCSEYCLCHIVNLIEDWGPCTEHGEHRIR
+                     TPRTPARVTGGVFLVDKNPHNTTESRLVVDFSQFSRGSTHVSWPKFAVPNLQSLTNLL
+                     SSNLSWLSLDVSAAFYHIPLHPAAMPHLLVGSCGLPRYVARLSSTSRNINYQHGTMQD
+                     LHSSCSRNLYVSLLLLYKTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQFTSAICS
+                     VVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTSITNFLLSLGIHLNPNKTKRWGYSL
+                     NFMGYVIGSWGTLPQEHIVQKIKNCFRKLPVHRPIDWKVCQRIVGLLGFAAPFTQCGY
+                     PALMPLYACIQAKQAFTFSPTYKAFLCKQYLNLYPVARQRSGLCQVFADATPTGWGLA
+                     IGHQRMRGTFVAPLPIHTAELLAACFARSRSGAKLIGTDNSVVLSRKYTSFPWLLGCA
+                     ANWILRGTSFVYVPSALNPADDPSRGRLGLYRPLLRLPFRPTTGRTSLYAVSPSVPSH
+                     LPDRVHFASPLHVAWKPP"
+     CDS             1357..1821
+                     /note="HBx protein"
+                     /codon_start=1
+                     /product="X peptide"
+                     /protein_id="ACH57900.1"
+                     /translation="MAARVCCQLDPARDVLCLRPVGAESRGRPVSGPFGSLSSPSSSA
+                     VPADHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNARQVLPKVLYKRTLGLSA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLMIFVLGGCRHKLVCSPAPCNFFTSA"
+ORIGIN      
+        1 aaactcttca agatcccaga gtcagggccc tgaactttcc tgctggtggc tccagttcag
+       61 gaacagtgag ccctgctcag aatactgtct ctgccatatc gtcaatctta tcgaagactg
+      121 gggaccctgt accgaacatg gagaacatcg catcaggact cccaggaccc ctgctcgtgt
+      181 tacaggcggg gtttttcttg ttgacaaaaa tcctcacaat accacagagt ctagactcgt
+      241 ggtggacttc tctcaatttt ctagggggag cacccacgtg tcctggccaa aattcgcagt
+      301 ccccaacctc caatcactca ccaacctctt gtcctccaat ttgtcctggc tatcgctgga
+      361 tgtgtctgcg gcgttttatc atattcctct tcatcctgct gctatgcctc atcttcttgt
+      421 tggttcttgt ggactaccaa ggtatgttgc ccgtttgtcc tctacttcca ggaacatcaa
+      481 ctaccagcac gggaccatgc aagacctgca cagttcctgc tcaaggaacc tctatgtttc
+      541 cctcttgttg ctgtacaaaa ccttcggacg gaaactgcac ttgtattccc atcccatcat
+      601 cctgggcttt cgtaagattc ctatgggagt gggcctcagt ccgtttctcc tggctcagtt
+      661 tactagtgcc atttgttcag tggttcgtag ggctttcccc cactgtttgg ctttcagtta
+      721 tatggatgat gtggtactgg gggccaagtc tgtacaacat cttgagtccc tttttacctc
+      781 tattaccaat tttcttttgt ctttgggtat acatttgaac cctaataaaa ccaaacgttg
+      841 gggctactct cttaacttca tgggatatgt aattggaagt tggggtactt taccgcaaga
+      901 acatattgta caaaaaatca agaactgttt tcgaaaattg cctgtacata gacctattga
+      961 ttggaaagta tgtcaacgaa ttgtgggtct tttgggcttt gctgcccctt ttacacaatg
+     1021 tggttatcct gccttgatgc ctttatatgc ctgtatacaa gctaagcagg ctttcacttt
+     1081 ctcgccaact tacaaggcct ttctgtgtaa acaatatctg aacctttacc ccgttgcccg
+     1141 gcaacggtca ggtctctgcc aagtgtttgc tgacgcaacc cccactggat ggggcttggc
+     1201 cataggccat cagcgcatgc gtggaacctt tgtggctcct ctgccgatcc atactgcgga
+     1261 actcctagca gcttgttttg ctcgcagccg gtctggagcg aaacttatcg gcaccgacaa
+     1321 ctctgttgtc ctctctcgga aatacacctc ctttccatgg ctgctagggt gtgctgccaa
+     1381 ctggatcctg cgcgggacgt cctttgtcta cgtcccgtcg gcgctgaatc ccgcggacga
+     1441 cccgtctcgg ggccgtttgg gtctctatcg tccccttctt cgtctgccgt tccggccgac
+     1501 cacggggcgc acctctcttt acgcggtctc cccgtctgtg ccttctcatc tgccggaccg
+     1561 tgtgcacttc gcttcacctc tgcacgtcgc atggaaacca ccgtgaacgc ccgccaggtc
+     1621 ttgcccaagg tcttatataa gaggactctt ggactctcag caatgtcaac gaccgacctt
+     1681 gaggcatact tcaaagactg tgtgtttaaa gactgggagg agttggggga ggagattagg
+     1741 ttaatgatct ttgtactagg aggctgtagg cataaattgg tctgttcacc agcaccatgc
+     1801 aactttttca cctctgccta atcatctctt gttcatgtcc tactgttcaa gcctccaagc
+     1861 tgtgccttgg gtggctttag ggcatggaca ttgacacgta taaagaattt ggagcctctg
+     1921 tggagttact ctcttttttg ccttctgact tctttccttc tattcgagat ctcctcgaca
+     1981 ccgcctctgc tctgcatcgg gaggccttag agtctccgga acattgttca cctcaccata
+     2041 cggccctcag gcaagctatt gtgtgttggg gtgagttaat gaatctagcc acctgggtgg
+     2101 gaagtaattt ggaagatcca gcatccaggg aattagtagt cagctatgtc aacgttaata
+     2161 tgggcctaaa aatcagacaa ctattgtggt ttcacatttc ctgtcttact tttgggagag
+     2221 aaactgttct tgaatatttg gtgtcttttg gagtgtggat tcgcactcct cctgcatata
+     2281 gaccaccaaa tgcccctatc ttatcaacac ttccggaaac tactgttgtt agacgaagag
+     2341 gcaggtcccc tagaagaaga actccctcgc ctcgcagacg aaggtctcaa tcgccgcgtc
+     2401 gcagaagatc tcaatctcgg gaatcttaat gttagtattc cttggacaca taaggtggga
+     2461 aactttacgg ggctttattc ttctacggta ccttgcttta atcctaaatg gcaaactcct
+     2521 tcttttcctg acattcattt gcaggaggac attgttgata gatgtaagca atttgtgggg
+     2581 ccccttacag taaatgaaaa caggagacta aaattaatta tgcctgctag gttttatccc
+     2641 aatgttacta aatatttgcc cttagataaa gggatcaaac cgtattatcc agagcatgta
+     2701 gttaatcatt acttccagac gcgacattat ttacacactc tttggaaggc gggaatctta
+     2761 tataaaagag agtccacacg tagcgcctca ttttacgggt caccatattc ttgggaacaa
+     2821 gatctacagc atgggaggtt ggtcttccaa acctcgaaaa ggcatgggga caaatctttc
+     2881 tgtccccaat cccctgggat tcttccccga tcatcagttg gaccctgcat tcaaagccaa
+     2941 ctcagaaaat ccagattggg acctcaaccc gcacaaggac aactggccgg acgccaacaa
+     3001 ggtgggagtg ggagcattcg ggccagggtt cacccctccc cctgggggac tgttggggtg
+     3061 aagccctcag gctcagggcc tactcacaac tgtgccagca gctcctcctc ctgcctccac
+     3121 caatcggcag tcag
+//

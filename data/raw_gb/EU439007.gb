@@ -1,0 +1,140 @@
+
+LOCUS       EU439007                3199 bp    DNA     circular VRL 29-JUL-2011
+DEFINITION  Hepatitis B virus clone 602(S)-39 from China, complete genome.
+ACCESSION   EU439007
+VERSION     EU439007.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3199)
+  AUTHORS   Shen,T., Yan,X.M., Zou,Y.L., Gao,J.M. and Dong,H.
+  TITLE     Virologic characteristics of hepatitis B virus in patients infected
+            via maternal-fetal transmission
+  JOURNAL   World J. Gastroenterol. 14 (37), 5674-5682 (2008)
+   PUBMED   18837083
+REFERENCE   2  (bases 1 to 3199)
+  AUTHORS   Shen,T., Yan,X.M., Zou,Y.L. and Gao,J.M.
+  TITLE     HBV complete genomes in an asymptomatic HBV carrier and her son
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 3199)
+  AUTHORS   Shen,T., Yan,X.M., Zou,Y.L. and Gao,J.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2008) Department of Molecular Biology, Institute
+            of Basic Medicine, Jin Bi Road 157#, Kunming, Yunnan 650032,
+            People's Republic of China
+FEATURES             Location/Qualifiers
+     source          1..3199
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /serotype="adrq+"
+                     /isolation_source="serum"
+                     /db_xref="taxon:10407"
+                     /clone="602(S)-39"
+                     /geo_loc_name="China"
+                     /note="genotype: C"
+     gene            join(2832..3199,1..727)
+                     /gene="S"
+     CDS             join(2832..3199,1..727)
+                     /gene="S"
+                     /note="C-terminally truncated preS1/S2/S protein due to
+                     mutation"
+                     /codon_start=1
+                     /product="large/middle/small protein"
+                     /protein_id="ACA25448.1"
+                     /translation="MGGWSSKPRQGMGTNLSVPNPLGFFPDHQLDPAFGANSNNPDWD
+                     FNPNKDHWPEANQVGAGAFGPGFTPPHGGLLGWSPQAQGILTTVPAAPPPASTNRQSG
+                     RQPTPISPPLRDSHPQAMQWNSTTFHQALIDPRVRGLYFPAGGSSSGTVNPVPTTVSP
+                     ISSIFSRTGDPAPNMESTTSGFLGPLLVLRAGFFLLTRILTIPQSLDSWWTSLNFLGG
+                     APTCPGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLLPGTSTTSTGPCKTCTIPAQGTSMFPSCCCTKPSDGNCTCIPIPSSWAFAR
+                     FLWEWASVRFSWLSLLVPFVQWFVGLSPTV"
+     variation       727
+                     /gene="S"
+                     /replace="g"
+     variation       761
+                     /replace=""
+     gene            1375..1839
+                     /gene="X"
+     CDS             1375..1839
+                     /gene="X"
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="ACA25449.1"
+                     /translation="MAARVCCQLDPARDVLCLRPVGAESRGRPVSGPFGTLPSPSSSA
+                     VPADHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNAHQVLPKVLHKRTLGLSA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLKVFVLGGCRHKLVCSPAPCNFFTSA"
+     gene            1815..2333
+                     /gene="C"
+     CDS             1815..2333
+                     /gene="C"
+                     /note="C-terminally truncated precore/core protein due to
+                     deletion"
+                     /codon_start=1
+                     /product="precore/core protein"
+                     /protein_id="ACA25450.1"
+                     /translation="MQLFHLCLIISCSCPTVQASKLCLGWLWGMDIDPYKEFGASVEL
+                     LSFLPSDFFPSIRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMNLATWVG
+                     SNLEDPASRELVVSYVNVNMGLKIRQLLWFHISCLTFGRETVLEYLVSFGVWIRTPPA
+                     YRPPNAPILSTL"
+     variation       2331^2332
+                     /gene="C"
+                     /note="17 base deletion compared with similar strains"
+ORIGIN      
+        1 ctccacaaca ttccaccaag ctctgataga tcccagagtg aggggcctat attttcctgc
+       61 tggtggctcc agttccggaa cagtaaaccc tgttccgact actgtctcac ccatatcgtc
+      121 aatcttctcg aggactgggg accctgcacc gaacatggag agcacaacat caggattcct
+      181 aggacccctg ctcgtgttac gggcggggtt tttcttgttg acaagaatcc tcacaatacc
+      241 acagagtcta gactcgtggt ggacttctct caattttcta gggggagcac ccacgtgtcc
+      301 tggccaaaat tcgcagtccc caacctccaa tcactcacca acctcctgtc ctccaatttg
+      361 tcctggctat cgctggatgt gtctgcggcg ttttatcata ttcctcttca tcctgctgct
+      421 atgcctcatc ttcttgttgg ttcttctgga ctaccaaggt atgttgcccg tttgtcctct
+      481 acttccagga acatcaacta ccagcacggg accatgcaag acctgcacga ttcctgctca
+      541 aggaacctct atgtttccct cttgttgctg tacaaaacct tcggacggaa actgcacttg
+      601 tattcccatc ccatcatcct gggctttcgc aagattccta tgggagtggg cctcagtccg
+      661 tttctcctgg ctcagtttac tagtgccatt tgttcagtgg ttcgtagggc tttcccccac
+      721 tgtttgactt tcagttatat ggatgatgtg gtattggggg gccaagtctg tacaacatct
+      781 tgagtccctt tttacctcta ttaccaattt tcttttgtct ttgggtatac atttaaaccc
+      841 taataaaacc aaacgctggg gttactccct taacttcatg ggatatgtaa ttggaagttg
+      901 gggtacttta ccgcaggagc atattgtact gaaactcaag caatgttttc gtaaactgcc
+      961 tgtaaataga cctattgatt ggaaagtatg tcaaagaatt gtgggtcttt tgggctttgc
+     1021 tgcccctttt acacaatgtg gctatcctgc cttgatgcct ttatatgcat gtatacaatc
+     1081 taagcaggct ttcactttct cgccaactta taaggccttt ctgtgtaaac aatatctgaa
+     1141 cctttacccc gttgcccggc aacggtcagg tctctgccaa gtgtttgctg acgcaacccc
+     1201 cactggatgg ggcttggcca taggccatcg gcgcatgcgt ggaacctttg tggctcctct
+     1261 gccgatccat actgcggaac tcctagcagc ttgttttgct cgcagccggt ctggagcaaa
+     1321 acttatcggc accgacaact ccgttgtcct ctctcggaaa tacacctcct ttccatggct
+     1381 gctcgggtgt gctgccaact ggatcctgcg cgggacgtcc tttgtctacg tcccgtcggc
+     1441 gctgaatccc gcggacgacc cgtctcgggg ccgtttggga ctctaccgtc cccttcttca
+     1501 tctgccgttc cggccgacca cggggcgcac ctctctttac gcggtctccc cgtctgtgcc
+     1561 ttctcatctg ccggaccgtg tgcacttcgc ttcacctctg cacgtcgcat ggagaccacc
+     1621 gtgaacgccc accaggtctt gcccaaggtc ttacataaga ggactcttgg actctcagca
+     1681 atgtcaacga ccgaccttga ggcatacttc aaagactgtg tgtttaaaga ctgggaggag
+     1741 ttgggggagg agattaggtt aaaggtcttt gtactaggag gctgtaggca taaattggtc
+     1801 tgttcaccag caccatgcaa ctttttcacc tctgcctaat catctcatgt tcatgtccta
+     1861 ctgttcaagc ctccaagctg tgccttgggt ggctttgggg catggacatt gacccatata
+     1921 aagaatttgg agcttccgtg gagttactct cttttttgcc ttctgacttc ttcccttcta
+     1981 ttcgagatct cctcgacacc gcctctgctc tgtatcggga ggccttagag tctccggaac
+     2041 attgttcacc tcaccataca gcactcaggc aagctattct gtgttggggt gagttgatga
+     2101 atctggccac ctgggtggga agtaatttgg aagacccagc atccagggaa ttagtagtca
+     2161 gctatgtcaa tgttaatatg ggcctaaaaa tcagacaact attgtggttt cacatctcct
+     2221 gtcttacttt tggaagagaa actgtccttg agtatttggt gtcttttgga gtgtggattc
+     2281 gcactcctcc cgcttacaga ccaccaaatg cccctatctt atcaacactt tagacgacga
+     2341 ggcaggtccc ctagaagaag aactccctcg cctcgcagac gaaggtctca atcgccgcgt
+     2401 cgcagaagat ctcaatctcg ggaatctcaa tgttagtatc ccttggactc ataaggtggg
+     2461 aaattttact gggctttatt cttctactgt acctgtcttt aatcctgact ggcaaactcc
+     2521 ctcctttcct cacattcatt tacaggagga cattattaat agatgtcaac aatatgtggg
+     2581 ccctcttaca gttaatgaaa aaaggagatt aaaattaatt atgcctgcta ggttctgtcc
+     2641 taaccttacc aaatatttgc ccttggacaa aggcattaaa ccgtattatc ctgaacatgc
+     2701 agttaatcat tacttcaaaa ctaggcatta tttacatact ctgtggaagg ctggcattct
+     2761 atataagaga gaaactaaac gcagcgcctc attttgtggg tcaccatatt cttgggaaca
+     2821 agagctacag catgggaggt tggtcttcca aacctcgaca aggcatgggg acgaatcttt
+     2881 ctgttcccaa tcctctggga ttctttcccg atcaccagtt ggaccctgcg ttcggagcca
+     2941 actcaaacaa tccagattgg gacttcaacc ccaacaagga tcactggcca gaggcaaatc
+     3001 aggtaggagc gggggcattc gggccagggt tcaccccacc acacggcggt cttttggggt
+     3061 ggagccctca ggctcagggc atattaacaa cagtgccagc agcacctcct cctgcctcca
+     3121 ccaatcggca gtcaggaaga cagcctactc ccatctctcc acctctaaga gacagtcatc
+     3181 ctcaggccat gcagtggaa
+//

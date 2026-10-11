@@ -1,0 +1,171 @@
+
+LOCUS       EU304331                3221 bp    DNA     circular VRL 26-JUL-2016
+DEFINITION  Hepatitis B virus isolate BA84 genotype A, partial genome.
+ACCESSION   EU304331
+VERSION     EU304331.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3221)
+  AUTHORS   Mbayed,V.A., Pineiro y Leone,F.G., Pezzano,S.C. and Campos,R.H.
+  TITLE     Molecular characterization of hepatitis B virus genotype A from
+            Argentina and Brazil
+  JOURNAL   Arch. Virol. 154 (3), 525-529 (2009)
+   PUBMED   19225714
+REFERENCE   2  (bases 1 to 3221)
+  AUTHORS   Mbayed,V.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2007) Catedra de Virologia, Facultad de Farmacia
+            y Bioquimica, Universidad de Buenos Aires, Junin 956 4th floor,
+            Buenos Aires, Capital Federal C1113AAB, Argentina
+REFERENCE   3  (bases 1 to 3221)
+  AUTHORS   Mbayed,V.A., Pezzano,S. and Torres,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-SEP-2008) Catedra de Virologia, Facultad de Farmacia
+            y Bioquimica, Universidad de Buenos Aires, Junin 956 4th floor,
+            Buenos Aires, Capital Federal C1113AAB, Argentina
+  REMARK    Sequence update by submitter
+FEATURES             Location/Qualifiers
+     source          1..3221
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /serotype="adw2"
+                     /isolate="BA84"
+                     /isolation_source="HBeAg (-) carrier serum"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="Argentina"
+                     /collection_date="02-Jun-2004"
+                     /note="subtype: A1; genotype: A"
+     gene            join(2307..3221,1..>803)
+                     /gene="P"
+     CDS             join(2307..3221,1..>803)
+                     /gene="P"
+                     /note="coding region disrupted by sequencing gap"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="ACA34610.1"
+                     /translation="MPLSYQHFRKLLLLDNDTEAGPLEEELPRLADZDLNRRVAEDLN
+                     LGNLNVSIPWTHKVGNFTGLYSSTVPIFNPDWQTPSFPKIHLHEDIANRCQQFVGPLT
+                     VNEKRKLKLIMPARFYPNSTKYLPLDKGIKPYYPDHVVNHYFQTRHYLHTLWKAGILY
+                     KRETTRSASFCGSPYSWEQELHHGRLVIKTSQRHGDEPFCSQPSGILPRSSVGPCIRS
+                     QFKQSRLGLQQKQGPLATSQPGRSGSIRARVHSPTRRCFGVEPSGSGHIDHSASSSSS
+                     CLHQSAVRKAAYSHLSTSKRQSSSCHTMEFHSFPPSSERSQSQGTVFSCWWLQFRNTQ
+                     PCSXYCLSHLVNLLEDWGPCDEHGEHHIRIPRTPARVTGGVFLVDKNPHNTAESRLVV
+                     DFSQFSRGITRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHIPLHPAAMPHLL
+                     IGSSGLSRYVARLSSNSRIHNNQYGTLQNLHDSCSRQLYVSLMLLYKTYGRKLHLYSH
+                     PIILGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLE
+                     SLYAXVT"
+     gene            join(2854..3221,1..>803)
+                     /gene="S"
+     CDS             join(2854..3221,1..>803)
+                     /gene="S"
+                     /note="pre-S1/pre-S2/S; coding region disrupted by
+                     sequencing gap"
+                     /codon_start=1
+                     /product="large S protein"
+                     /protein_id="ACH86089.1"
+                     /translation="MGGWSSKPRKGMGTNLSVPNPLGFFPDHQLDPAFGANSNNPDWD
+                     FNKSKDHWPQANQVGVGAFGPGFTPPHGGVLGWSPQAQGILTTVPAVPPPASTNRQSG
+                     RQPTPISPPLRDSHPHAIQWNSTVFHQALKDPRVRGLYFPAGGSSSETLNPVPNIASH
+                     ISSISSRTGDPATNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLSFLGG
+                     SPVCLGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLIPGSTTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAK
+                     YLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPNLYNILSPFMPLL"
+     misc_feature    join(3211..3221,1..>803)
+                     /gene="S"
+                     /note="disrupted by sequencing gap; similar to middle S
+                     protein; pre-S2/S"
+     CDS             155..>803
+                     /gene="S"
+                     /note="HBsAg; coding region disrupted by sequencing gap"
+                     /codon_start=1
+                     /product="S protein"
+                     /protein_id="ACH86090.1"
+                     /translation="MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLSFLGG
+                     SPVCLGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLIPGSTTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAK
+                     YLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPNLYNILSPFMPLL"
+     gap             804..1788
+                     /estimated_length=985
+     gene            <1789..1838
+                     /gene="X"
+     CDS             <1789..1838
+                     /gene="X"
+                     /note="coding region disrupted by sequencing gap"
+                     /codon_start=3
+                     /product="X peptide"
+                     /protein_id="ACH86091.1"
+                     /translation="KLVCAPSPFNFFTSA"
+     gene            1814..2458
+                     /gene="C"
+     misc_feature    1814..2458
+                     /gene="C"
+                     /note="similar to precore/core protein"
+     CDS             1901..2458
+                     /gene="C"
+                     /codon_start=1
+                     /product="core protein"
+                     /protein_id="ACH86092.1"
+                     /translation="MDIDPYKEFGATVELLSFLPXDFFPSVRDLLDTASALYREALES
+                     PEHCSSHHTALRQAILCWGELMTLATWVGNNLQDPASRDQVVNYVNTNMGLKIRQLLW
+                     FHISCLTFGRDXVLEYLVSFGVWIRTPPAYRPPNAPILSTLPETAVVRQRHRGRSPRG
+                     RTPSPRRXRSKSPRRRRSQSRESQC"
+ORIGIN      
+        1 ttccacagtt ttccaccaag ctctgaaaga tcccagagtc aggggactgt attttcctgc
+       61 tggtggctcc agttcagaaa cactcaaccc tgttccmaat attgcctctc acatctcgtc
+      121 aatctcctcg aggactgggg accctgcgac gaacatggag aacatcacat caggattcct
+      181 aggacccctg ctcgtgttac aggcggggtt tttcttgttg acaagaatcc tcacaatacc
+      241 gcagagtcta gactcgtggt ggacttctct cagttttcta gggggatcac ccgtgtgtct
+      301 tggccaaaat tcgcagtccc caacctccaa tcactcacca acctcctgtc ctccaatttg
+      361 tcctggctat cgctggatgt gtctgcggcg ttttatcata ttcctcttca tcctgctgct
+      421 atgcctcatc ttcttattgg ttcttctgga ttatcaaggt atgttgcccg tttgtcctct
+      481 aattccagga tccacaacaa ccagtacggg accctgcaaa acctgcacga ctcctgctca
+      541 aggcaactct atgtttccct catgttgctg tacaaaacct acggacggaa attgcacctg
+      601 tattcccatc ccatcatctt gggctttcgc aaaataccta tgggagtggg cctcagtccg
+      661 tttctcttgg ctcagtttac tagtgccatt tgttcagtgg ttcgtagggc tttcccccac
+      721 tgtttggctt tcagctatat ggatgatgtg gtactggggg ccaaatctgt acaacatctt
+      781 gagtcccttt atgcckctgt tacnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      841 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      901 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      961 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1021 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1081 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1141 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1201 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1261 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1321 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1381 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1441 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1501 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1561 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1621 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1681 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1741 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnat aaattggtct
+     1801 gcgcaccatc accattcaac tttttcacct ctgcctaatc atctcttgta catgtcccac
+     1861 ttttcaagcc tccaagctgt gccttgggtg gctttggggc atggacattg acccttataa
+     1921 agaatttgga gctactgtgg agttactctc ktttttgcct ymtgacttct ttccttccgt
+     1981 ccgggatcta ctagacacag cctcagcttt gtatcgggaa gccttagagt ctcctgagca
+     2041 ttgctcatct caccatacag cactcaggca agccattctc tgctgggggg aattaatgac
+     2101 tctagctacc tgggtgggta ataatttgca agatccagca tccagggatc aagtagtcaa
+     2161 ttatgttaat actaacatgg gcctaaagat caggcaacta ttgtggtttc atatytcttg
+     2221 ccttactttt ggaagagaca ytgtccttga gtatttggtc tckttcggag tgtggattcg
+     2281 cactcctcca gcctatagac caccaaatgc ccctatctta tcaacacttc cggaaactgc
+     2341 tgttgttaga caacgacacc gaggcaggtc ccctagagga agaactccct cgcctcgcag
+     2401 acsaagatct aaatcgccgc gtcgcagaag atctcaatct cgggaatctc aatgttagta
+     2461 ttccttggac tcataaggtg ggaaatttta ctgggcttta ttcttctact gtccctatct
+     2521 ttaatcctga ttggcaaact ccctcttttc caaaaattca tttacatgaa gacattgcta
+     2581 ataggtgtca gcaatttgta ggccctctta ctgtaaatga aaagagaaaa ctgaaattaa
+     2641 ttatgcctgc tagattttat cctaacagta ctaaatatct gcctttagac aaagggatta
+     2701 arccttatta tcctgatcat gtagttaacc attactttca aacccgacat tatttacata
+     2761 ctctttggaa ggctgggatt ctatataaga gggaaactac acgtagcgct tcattttgcg
+     2821 ggtcaccata ttcttgggaa caagagctac atcatgggag gttggtcatc aaaacctcgc
+     2881 aaaggcatgg ggacgaacct ttctgttccc aaccctctgg gattcttccc cgatcatcag
+     2941 ttggaccctg cattcggagc caattcaaac aatccagatt gggacttcaa caaaagcaag
+     3001 gaccactggc cacaagccaa ccaggtagga gtgggagcat tcgggccagg gttcactccc
+     3061 ccacacggag gtgttttggg gtggagccct caggctcagg gcatattgac cacagtgcca
+     3121 gcagttcctc ctcctgcctc caccaatcgg cagtcaggaa ggcagcctac tcccatctct
+     3181 ccacctctaa gagacagtca tcctcatgcc atacaatgga a
+//

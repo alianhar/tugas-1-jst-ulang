@@ -1,0 +1,125 @@
+{
+  "seed": 20251011,
+  "terms": {
+    "judul": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN]",
+    "luas": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties]"
+  },
+  "candidates_per_genotype_per_term": 150,
+  "per_genotipe": {
+    "A": {
+      "judul": {
+        "total_di_ncbi": 958,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype A\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 1279,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype A\"[All Fields]"
+      }
+    },
+    "B": {
+      "judul": {
+        "total_di_ncbi": 1288,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype B\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 2146,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype B\"[All Fields]"
+      }
+    },
+    "C": {
+      "judul": {
+        "total_di_ncbi": 2614,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype C\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 3823,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype C\"[All Fields]"
+      }
+    },
+    "D": {
+      "judul": {
+        "total_di_ncbi": 1660,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype D\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 1872,
+        "uid_terambil": 900,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype D\"[All Fields]"
+      }
+    },
+    "E": {
+      "judul": {
+        "total_di_ncbi": 391,
+        "uid_terambil": 391,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype E\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 658,
+        "uid_terambil": 658,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype E\"[All Fields]"
+      }
+    },
+    "F": {
+      "judul": {
+        "total_di_ncbi": 272,
+        "uid_terambil": 272,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype F\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 296,
+        "uid_terambil": 296,
+        "uid_disubsampel": 150,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype F\"[All Fields]"
+      }
+    },
+    "G": {
+      "judul": {
+        "total_di_ncbi": 64,
+        "uid_terambil": 64,
+        "uid_disubsampel": 64,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype G\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 130,
+        "uid_terambil": 130,
+        "uid_disubsampel": 130,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype G\"[All Fields]"
+      }
+    },
+    "H": {
+      "judul": {
+        "total_di_ncbi": 33,
+        "uid_terambil": 33,
+        "uid_disubsampel": 33,
+        "term": "\"Hepatitis B virus\"[Organism] AND \"complete genome\"[Title] AND 3000:3400[SLEN] AND \"genotype H\"[All Fields]"
+      },
+      "luas": {
+        "total_di_ncbi": 35,
+        "uid_terambil": 35,
+        "uid_disubsampel": 35,
+        "term": "\"Hepatitis B virus\"[Organism] AND 3000:3400[SLEN] AND biomol_genomic[PROP] NOT patent[Properties] AND \"genotype H\"[All Fields]"
+      }
+    }
+  },
+  "uid_kandidat_total": 1749,
+  "berkas_gb_baru": 1749,
+  "berkas_gb_total": 2309
+}

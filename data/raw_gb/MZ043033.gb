@@ -1,0 +1,188 @@
+
+LOCUS       MZ043033                3221 bp    DNA     circular VRL 29-OCT-2022
+DEFINITION  UNVERIFIED: Hepatitis B virus isolate DD13-46666, complete genome.
+ACCESSION   MZ043033
+VERSION     MZ043033.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3221)
+  AUTHORS   Habermann,D., Kharimzadeh,H., Walker,A., Li,Y., Yang,R., Kaiser,R.,
+            Brumme,Z.L., Timm,J., Roggendorf,M. and Hoffmann,D.
+  TITLE     HAMdetector: A Bayesian regression model that integrates
+            information to detect HLA-associated mutations
+  JOURNAL   Bioinformatics (2022) In press
+   PUBMED   35238330
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 3221)
+  AUTHORS   Damagnez,M., Schwarz,T., Walker,A., Kefalakes,H., Schulze Zur
+            Wiesch,J., Maini,M., Cornberg,M., Kraft,A., Keitel,V., B,H.H.,
+            Thimme,R., Wedemeyer,H., Neumann-Haefelin,C., Lewis-Ximenez,L.L.,
+            Lauer,G.M. and Timm,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2021) Institute of Virology, University Hospital
+            Duesseldorf, Universitaetsstr. 1, Duesseldorf 40225, Germany
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3221
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="DD13-46666"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="Germany"
+                     /note="genotype: A"
+     gene            join(2782..3221,1..25)
+                     /gene="X"
+     CDS             join(2782..3221,1..25)
+                     /gene="X"
+                     /codon_start=1
+                     /product="HBx"
+                     /protein_id="UYO77583.1"
+                     /translation="MAARLYCQLDPSRDVLCLRPVGAESRGRPLSGPLGPLSSPSQSA
+                     VPAVHGANLSLRGLPVCAFSSAGPCALRFTSARCMETTVNAHQILPKVLHKRTLGLPA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLKIFVLGGCRHKLVCAPAPCNFFTSA"
+     gene            1..645
+                     /gene="precore"
+     CDS             1..84
+                     /gene="precore"
+                     /codon_start=1
+                     /product="HBeAg"
+                     /protein_id="UYO77577.1"
+                     /translation="MQLFHLCLIISCTCPTVQASKLCLGWL"
+     gene            88..645
+                     /gene="core"
+     CDS             88..645
+                     /gene="core"
+                     /codon_start=1
+                     /product="HBcAg"
+                     /protein_id="UYO77578.1"
+                     /translation="MDIDPYKEFGATVELLSFLPSDFFPSVRDLLDTASALYRDALES
+                     PEHCSPHHTALRQAVLCWGELMTLATWVGNNLBDPASRDLVVNYVNTHMGLKIRQLLW
+                     FHISCLTFGRETVIEYLVSFGVWIRTPPPYRPPNAPILSTLPETTVVRGRDRRRSPRR
+                     RTPSPRRRRSQSPRRRRSQSRESQC"
+     gene            494..3031
+                     /gene="pol"
+     CDS             494..3031
+                     /gene="pol"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="UYO77579.1"
+                     /translation="MPLSYQHFRKLLLLEVGTDAGPLEEELPRLADADLNRRVAEDLN
+                     LGNLNVSIPWTHKVGNFTGLYSSTVPIFNPEWQTPSFPEIHLQEDIIDRCQQFVGPLT
+                     VNEKRKLKLIMPARFYPTHTKYLPLDKGIKPYYPDQVVNHYFQTRHYLHTLWKAGILY
+                     QRESTRSASFCGSPYSWEQELQHGRLVIKTSQRHGDESFCSQPSGILSRSSVGPGIRS
+                     QLKQSRLGLQPHQGPLASSQPGRSGSIRARAHPSTRRYFGVEPSGSGHIDHSVNNSSS
+                     CLHQSAVRKAAYSHLSTSKRQSSSGHAVEFHCLPPSSAGSQSQGSVFSCWWLQFRNSK
+                     PCSEYCLSHLVNLREDWGPCDEHGEHHIRIPRTPARVTGGVFLVDKNPHNTAESRLVV
+                     DFSQFSRGITRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHIPLHPAAMPHLL
+                     IGSSGLSRYVARLSSNSRINNNQXGTMQNLHDSCSRQLYVSLMLLYKTYGRKLHLYSH
+                     PIVLGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHRE
+                     ALYTAVTNFLLSLGIHLNPSKTKRWGYSLNFMGYVIGSWGTLPQDHIVQKIKHCFRKL
+                     PVNRPIDWKVCQRIVGLLGFAAPFTQCGYPALMPLYACIQAKQAFTFSPTYKAFLSKQ
+                     YLNLYPVARQRPGLCQVFADATPTGWGLAIGHQRMRGTFVAPLPIHTAELLAACFARS
+                     RSGAKLIGTDNSVVLSRKYTSFPWLLGCTANWILRGTSFVYVPSALNPADDPSRGRLG
+                     LSRPLLSLPFQPSTGRTSLYAVSPSVPSHLPVRVHFASPLHVAWRPP"
+     gene            1074..2243
+                     /gene="PreS1/PreS2/S"
+     CDS             1074..2243
+                     /gene="PreS1/PreS2/S"
+                     /codon_start=1
+                     /product="L-HBsAg"
+                     /protein_id="UYO77580.1"
+                     /translation="MGTNLSVPNPLGFFPDHQLDPAFGANSNNPDWDFNPIKDHWPAA
+                     NQVGVGAFGPGLTPPHGGILGWSPQAQGILTTVSTIPPPASTNRQSGRQPTPISPPLR
+                     DSHPQAMQWNSTAFHQALQDPRVRGLYFPAGGSSSGTVNPAPNIASHISSISARTGDP
+                     VTNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLSFLGGSPVCLGQNSQC
+                     PTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGS
+                     TTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAKYLWEWASVRFS
+                     WLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPSLYSIVRPFIPLLPIFFCLWVYI"
+     gene            1398..2243
+                     /gene="PreS2/S"
+     CDS             1398..2243
+                     /gene="PreS2/S"
+                     /codon_start=1
+                     /product="M-HBsAg"
+                     /protein_id="UYO77581.1"
+                     /translation="MQWNSTAFHQALQDPRVRGLYFPAGGSSSGTVNPAPNIASHISS
+                     ISARTGDPVTNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLSFLGGSPV
+                     CLGQNSQCPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLP
+                     VCPLIPGSTTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAKYLW
+                     EWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPSLYSIVRPFIPLLPIFFC
+                     LWVYI"
+     gene            1563..2243
+                     /gene="S"
+     CDS             1563..2243
+                     /gene="S"
+                     /codon_start=1
+                     /product="S-HBsAg"
+                     /protein_id="UYO77582.1"
+                     /translation="MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLSFLGG
+                     SPVCLGQNSQCPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLIPGSTTTSTGPCKTCTTPAQGNSMFPSCCCTKPTDGNCTCIPIPSSWAFAK
+                     YLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSAIWMMWYWGPSLYSIVRPFIPLLPI
+                     FFCLWVYI"
+ORIGIN      
+        1 atgcaacttt ttcacctctg cctaatcatc tcttgtacat gtcctactgt tcaagcctcc
+       61 aagctgtgcc ttgggtggct ttaggrcatg gacatcgacc cttataaaga atttggagct
+      121 actgtggagt tactctcttt tttgccttct gacttctttc cttccgtcag agatctccta
+      181 gacaccgcct cagctctgta tcgagatgcc ttagagtctc ctgagcattg ctcacctcac
+      241 catactgcac tcaggcaagc cgttctctgc tggggggaat tgatgactct agctacctgg
+      301 gtgggtaata atttgracga tccagcatcc agggatctag tagtcaatta tgttaatact
+      361 cacatgggtt taaagatcag gcaactattg tggtttcata tatcttgcct tacttttgga
+      421 agagaaactg taattgaata tttggtctct ttcggagtgt ggattcgcac tcctccacca
+      481 tatagaccac caaatgcccc tatcttatca acacttccgg aaactactgt tgttagaggt
+      541 cgggaccgac gcaggtcccc tagaagaaga actccctcgc ctcgcagacg cagatctcaa
+      601 tcgccgcgtc gcagaagatc tcaatctcgg gaatctcaat gttagtattc cttggactca
+      661 taaggtggga aactttactg ggctttattc ctctacagta cctatcttta atcctgaatg
+      721 gcaaactcct tcctttcctg agattcattt acaagaggac attattgata ggtgtcaaca
+      781 atttgtgggc cctctcactg taaatgaaaa gagaaaattg aaattaatta tgcctgctag
+      841 attctatcct acccacacta aatatttgcc cttggataaa ggaattaaac cttattatcc
+      901 agatcaggta gttaatcatt acttccaaac cagacattat ttacatactc tttggaaggc
+      961 tggtattcta tatcagaggg aatccacacg tagcgcatca ttttgcgggt caccatattc
+     1021 ttgggaacaa gagctacagc atgggaggtt ggtcatcaaa acctcgcaaa ggcatgggga
+     1081 cgaatctttc tgttcccaac cctctgggat tctttcccga tcatcagttg gacccggcat
+     1141 tcggagccaa ctcaaacaat ccagattggg acttcaaccc catcaaggac cactggccag
+     1201 cagccaacca ggtaggagtg ggagcattcg ggccagggct cacccctcca cacggaggta
+     1261 ttttggggtg gagccctcag gctcagggca tattgaccac agtgtcaaca attcctcctc
+     1321 ctgcctccac caatcggcag tcaggaaggc agcctactcc catctctcca cctctaagag
+     1381 acagtcatcc tcaggccatg cagtggaatt ccactgcctt ccaccaagct ctgcaggatc
+     1441 ccagagtcag gggtctgtat tttcctgctg gtggctccag ttcaggaaca gtaaaccctg
+     1501 ctccgaatat tgcctctcac atctcgtcaa tctccgcgag gactggggac cctgtgacga
+     1561 acatggagaa catcacatca ggattcctag gacccctgct cgtgttacag gcggggtttt
+     1621 tcttgttgac aagaatcctc acaataccgc agagtctaga ctcgtggtgg acttctctca
+     1681 gttttctagg gggatcaccc gtgtgtcttg gccaaaattc gcagtgccca acctccaatc
+     1741 actcaccaac ctcctgtcct ccaatttgtc ctggttatcg ctggatgtgt ctgcggcgtt
+     1801 ttatcatatt cctcttcatc ctgctgctat gcctcatctt cttattggtt cttctggatt
+     1861 atcaaggtat gttgcccgtt tgtcctctaa ttccaggatc aacaacaacc agyacgggac
+     1921 catgcaaaac ctgcacgact cctgctcaag gcaactctat gtttccctca tgttgctgta
+     1981 caaaacctac ggacggaaat tgcacctgta ttcccatccc atcgtcctgg gctttcgcaa
+     2041 aatacctatg ggagtgggcc tcagtccgtt tctcttggct cagtttacta gtgccatttg
+     2101 ttcagtggtt cgtagggctt tcccccactg tttggctttc agctatatgg atgatgtggt
+     2161 attgggggcc aagtctgtac agcatcgtga ggccctttat accgctgtta ccaattttct
+     2221 tttgtctctg ggtatacatt taaaccctag caaaacaaaa agatggggtt attccctaaa
+     2281 cttcatgggt tacgtaattg gaagttgggg aacattgcca caggatcata ttgtacaaaa
+     2341 gatcaaacac tgttttagaa aacttcctgt taacaggcct attgattgga aagtatgtca
+     2401 aagaattgtg ggtcttttgg gctttgctgc tccatttaca caatgtggat atcctgcctt
+     2461 aatgcctttg tatgcatgta tacaagctaa acaggctttc actttctcgc caacttacaa
+     2521 ggcctttcta agtaaacagt acctgaacct ttaccccgtt gctcggcaac ggcctggact
+     2581 atgccaagtg tttgctgacg caacccccac tggctggggc ttggccatag gccatcagcg
+     2641 catgcgtgga acctttgtgg ctcctctgcc gatccatact gcggaactcc tagccgcttg
+     2701 ttttgctcgc agccggtctg gagcaaagct catcggaact gacaattctg tcgttctctc
+     2761 gcggaaatat acatcgtttc catggctgct aggctgtact gccaactgga tccttcgcgg
+     2821 gacgtccttt gtctacgtcc cgtcggcgct gaatcccgcg gacgacccct ctcggggccg
+     2881 cttgggcctc tctcgtcccc ttctcagtct gccgttccag ccgtccacgg ggcgaacctc
+     2941 tctttacgcg gtctccccgt ctgtgccttc tcatctgccg gtccgtgtgc acttcgcttc
+     3001 acctctgcac gttgcatgga gaccaccgtg aacgcccatc agatcctgcc caaggtctta
+     3061 cataagagga ctcttggact cccagcaatg tcaacgaccg accttgaggc ctacttcaaa
+     3121 gactgtgtgt ttaaagactg ggaggagctg ggggaggaga ttaggttaaa gatctttgta
+     3181 ttgggaggct gtaggcataa attggtctgc gcaccagcac c
+//

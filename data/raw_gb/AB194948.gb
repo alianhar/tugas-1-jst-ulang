@@ -1,0 +1,134 @@
+
+LOCUS       AB194948                3212 bp    DNA     circular VRL 13-JUN-2024
+DEFINITION  Hepatitis B virus CMR936 DNA, complete genome.
+ACCESSION   AB194948
+VERSION     AB194948.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1
+  AUTHORS   Kurbanov,F., Tanaka,Y., Fujiwara,K., Sugauchi,F., Mbanya,D.,
+            Zekeng,L., Ndembi,N., Ngansop,C., Kaptue,L., Miura,T., Ido,E.,
+            Hayami,M., Ichimura,H. and Mizokami,M.
+  TITLE     A new subtype (subgenotype) Ac (A3) of hepatitis B virus and
+            recombination between genotypes A and E in Cameroon
+  JOURNAL   J Gen Virol 86 (Pt 7), 2047-2056 (2005)
+   PUBMED   15958684
+REFERENCE   2  (bases 1 to 3212)
+  AUTHORS   Kurbanov,F., Tanaka,Y. and Mizokami,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-NOV-2004) Contact:Fuat Kurbanov Nagoya City
+            University, Molecular Informative Medicine; Kawasumi, Mizuho,
+            Nagoya, Aichi 467-8601, Japan
+COMMENT     Correspondense to Mizokami,M.
+FEATURES             Location/Qualifiers
+     source          1..3212
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="CMR936"
+                     /isolation_source="blood serum of Pygmy"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="Cameroon"
+                     /note="genotype E"
+     CDS             join(2307..3212,1..1623)
+                     /codon_start=1
+                     /product="P protein"
+                     /protein_id="BAE00081.1"
+                     /translation="MPLSYQHFRRLLLLDEEAGPLEEELPRLADEDLNRRVAEDLNLQ
+                     LPNVSIPWTHKVGNFTGLYSSTIPVFNPNWKTPSFPDIHLHQDIINKCEQFVGPLTVN
+                     EKRRLNLVMPARFFPISTKYLPLEKGIKPYYPNNVVNHYFQTRHYLHTLWKAGILYKR
+                     ETSRSASFYGSPYSWEQELHHGAFLDGPSRMGEESFHHQSSGIFSRPPVGSSIQCKHQ
+                     KSRLGPQSQQRPLDGSQPGRSGSIRAGVHSPTRRPSGGEPSGSRHANNIASRSASCLH
+                     QSAVRKAAYPNHSTFERHSSSGHAVEFHNIPPSSAGSQSKRPVSSCWWLQFRNSEPCS
+                     DYCLTHLVNLLEDWGPCTEHGKHHIRIPRTPARVTGGVFLVDKNPHNTAESRLVVDFS
+                     QFSRGSSRVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGS
+                     SGLSRYVARLSSNSRIINHQYGTLPNLHDSCSRNLYVSLMLLFKTFGRKLHLYSHPII
+                     MGFRKIPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGARSVQHLESLY
+                     TSVTNFLLSLGIHLNPNKTKRWGYSLHFMGYVIGSWGSLPQEHIRMKIKDCFRKLPVN
+                     RPIDWKVCQRIVGLLGFAAPFTQCGYPALMPLYACIQSKQAFTFSPTYKAFLCKQYLD
+                     LYPVARQRPGLCQVFADATPTGWGLAIGHQRMRGTFVAPLPIHTAELLAACFARSRSG
+                     AKLIGTDNSVVLSRKYTSFPWLLGCAANWILRGTSFVYVPSALNPADDPSRGRLGIYR
+                     PLLRLPFQPTTGRTSLYAVSPSVPSHLPDRVHFASPLHVAWRPP"
+     CDS             join(2848..3212,1..835)
+                     /codon_start=1
+                     /product="large S protein"
+                     /protein_id="BAE00082.1"
+                     /translation="MGLSWTVPLEWGKNHSTTNPLGFFPDHQLDPAFSANTRNPDWDH
+                     NPNKDHWTEANQVGVGAFGPGFTPPHGGLLGGSPQAQGMLTTLPADPPPASTNRQSGR
+                     QPTPITPPLRDTHPQAMQWNSTTFHQALQDPRVRGLYRPAGGSSSGTVNPVPTTASLI
+                     SSIFSRIGDPAPNMESITSGFLGPLLVLQAGFFLLTKILTIPQSLDSWWTSLNFLGEA
+                     PVCRGQNSQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGM
+                     LPVCPLIPGSSTTSTGPCRTCTTPAQGTSMFPSCCCSKPSDGNCTCIPIPSSWAFGKF
+                     LWEWASARFSWLSLLVPFVQWFAGLSPTVWLSVIWMMWYWGPGLYNTLSPFIPLLPIF
+                     FCLWVYI"
+     CDS             1374..1838
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="BAE00080.1"
+                     /translation="MAARLCCQLDPARDVLCLRPVSAESCGRPVSGSPGDLSSPSPSA
+                     VPADHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNAHQILPKVLHKRTLGLSA
+                     MSTTDLEAYFKDCLFKDWEELGEETRLQVFVLGGCRHKLVCAPSPCNFFTSA"
+     CDS             1814..2452
+                     /note="internal stop codon is found;
+                     precore/core protein"
+                     /pseudo
+                     /codon_start=1
+ORIGIN      
+        1 ttccacaaca ttccaccaag ctctgcagga tcccagagta agaggcctgt atcgtcctgc
+       61 tggtggctcc agttccggaa cagtgaaccc tgttccgact actgcctcac tcatctcgtc
+      121 aatcttctcg aggattgggg accctgcacc gaacatggaa agcatcacat caggattcct
+      181 aggacccctg ctcgtgttac aggcggggtt tttcttgttg acaaaaatcc tcacaatacc
+      241 gcagagtcta gactcgtggt ggacttctct caattttcta ggggaagctc ccgtgtgtcg
+      301 tggccaaaat tcgcagtccc caacctccaa tcactcacca acctcttgtc ctccaatttg
+      361 tcctggctat cgctggatgt gtctgcggcg ttttatcatc ttcctcttca tcctgctgct
+      421 atgcctcatc ttcttgttgg ttcttctgga ctatcaaggt atgttgcccg tttgtcctct
+      481 aattccagga tcatcaacca ccagtacggg accctgccga acctgcacga ctcctgctca
+      541 aggaacctct atgtttccct catgttgctg ttcaaaacct tcggacggaa attgcacttg
+      601 tattcccatc ccatcatcat gggctttcgg aaaattccta tgggagtggg cctcagcccg
+      661 tttctcctgg ctcagtttac tagtgccatt tgttcagtgg ttcgccgggc tttcccccac
+      721 tgtctggctt tcagttatat ggatgatgtg gtattggggg ccaggtctgt acaacacctt
+      781 gagtcccttt atacctctgt taccaatttt cttttgtctt tgggtataca tttaaatccc
+      841 aacaaaacga aaagatgggg atattcccta catttcatgg gttatgtaat tggaagttgg
+      901 gggtcattac cacaggaaca catcagaatg aaaatcaaag actgttttag aaaactccct
+      961 gttaaccggc ctattgattg gaaagtatgt caacgaattg tgggtctttt gggctttgct
+     1021 gcccctttta cacaatgtgg gtatcctgct ttaatgcctc tgtatgcgtg tattcaatcg
+     1081 aagcaggctt tcactttttc gccaacctac aaggcctttc tgtgtaaaca atacctggac
+     1141 ctttaccccg ttgcccggca acggccaggt ctgtgccaag tgtttgctga tgcaaccccc
+     1201 actggctggg gcttggccat aggccatcag cgcatgcgtg gaacctttgt ggctcctcta
+     1261 ccgatccata ctgcggaact cctagccgct tgttttgctc gcagccggtc tggagcaaaa
+     1321 cttatcggga cagataattc tgtcgttctc tcccggaaat atacatcctt tccatggctg
+     1381 ctaggctgtg ctgccaactg gatcctgcga gggacgtcct ttgtctacgt cccgtcagcg
+     1441 ctgaatcctg cggacgaccc gtctcggggt cgcctgggga tctatcgtcc ccttctccgt
+     1501 ctgccgttcc agccgaccac ggggcgcacc tctctttacg cggtctcccc gtctgtgcct
+     1561 tctcatctgc cggaccgtgt gcacttcgct tcacctctgc acgtcgcatg gagaccaccg
+     1621 tgaacgccca ccaaatcttg cccaaggtct tacataagag gactcttgga ctctctgcaa
+     1681 tgtcaacgac cgaccttgag gcatacttca aagactgttt gtttaaagac tgggaggagt
+     1741 tgggggagga gactagatta caggtctttg tactaggagg ctgtaggcat aaattggtct
+     1801 gcgcaccatc accatgcaac tttttcacct ctgcctaatc atctcttgtt catgtcctac
+     1861 tgttcaagcc tccaagctgt gccttgggtg gctttagggc atggacatcg acccttataa
+     1921 agaatttgga gcttctgtgg acttactctc gtttttgcct gccgacttct ttccttcagt
+     1981 aagagatctt ctagatactg cctcagctct gtatcgggat gccttagaat ctcatgagca
+     2041 ttgttcaccg caccacactg cactcaggca agccatactt tgctgggggg acctaatgtc
+     2101 tctagctacc tgggtgggtg taaatttgga agatccagca tccagggacc tagtggtcag
+     2161 ttatgtcaat actaatatgg gcctaaaatt caggcaatta ttgtggtttc acatttcttg
+     2221 tctcactttc ggaagagaca ccgtcataga gtatttggtg tcttttggag tgtggattcg
+     2281 cactcctcca gcttatagac cacaaaatgc ccctatctta tcaacacttc cggagactac
+     2341 tgttgttaga cgaagaggca ggtcccctag aagaagaact ccctcgcctc gcagacgaag
+     2401 atctcaatcg ccgcgtcgca gaagatctca atctccagct tcccaatgtt agtattcctt
+     2461 ggactcacaa ggtgggaaat tttacggggc tttactcttc cactatacct gtctttaatc
+     2521 ctaactggaa aactccctct tttcctgata ttcatttgca ccaggacatt attaacaaat
+     2581 gtgaacaatt tgtaggtcct ctaacagtaa atgaaaaacg aagattaaat ttagttatgc
+     2641 ctgctagatt ttttcccatc tctacaaaat atttgccact agagaaaggt ataaaacctt
+     2701 attatccaaa taatgtagtt aatcattact tccaaaccag acactattta cataccctat
+     2761 ggaaggcggg catcttatat aaaagagaaa cttcacggag cgcctcattt tatgggtcac
+     2821 cttattcttg ggaacaagag ctacatcatg gggctttctt ggacggtccc tctcgaatgg
+     2881 gggaagaatc attccaccac caatcctctg ggattttttc ccgaccacca gttggatcca
+     2941 gcattcagtg caaacaccag aaatccagat tgggaccaca atcccaacaa agaccactgg
+     3001 acggaagcca accaggtagg agtgggagca ttcgggccgg ggttcactcc cccacacgga
+     3061 ggccttctgg gggggagccc tcaggctcaa ggcatgctaa caacattgcc agcagatccg
+     3121 cctcctgcct ccaccaatcg gcagtcagga aggcagccta ccccaatcac tccacctttg
+     3181 agagacactc atcctcaggc catgcagtgg aa
+//

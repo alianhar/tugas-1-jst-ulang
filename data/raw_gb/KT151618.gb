@@ -1,0 +1,100 @@
+
+LOCUS       KT151618                3156 bp    DNA     circular VRL 16-DEC-2015
+DEFINITION  UNVERIFIED: Hepatitis B virus isolate 590, complete sequence.
+ACCESSION   KT151618
+VERSION     KT151618.1
+KEYWORDS    UNVERIFIED.
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3156)
+  AUTHORS   Prakash,S., Jain,A., Seth,A. and Jain,B.
+  TITLE     Complete Genome Sequences of Hepatitis B Virus from North India
+            Using Ion Torrent
+  JOURNAL   Genome Announc 3 (6), e01065-15 (2015)
+   PUBMED   26659668
+REFERENCE   2  (bases 1 to 3156)
+  AUTHORS   Prakash,S., Jain,A., Seth,A. and Jain,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAY-2015) Microbiology, King George's Medical
+            University, Shahmina Road, Chowk, Lucknow, Uttar Pradesh 226003,
+            India
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Torrent Suite v. v. 3.6.2; MEGA v. 5.10
+            Sequencing Technology :: IonTorrent
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3156
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="590"
+                     /isolation_source="serum"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="India: Lucknow"
+                     /collection_date="19-Mar-2014"
+                     /note="genotype: A"
+     misc_feature    join(2687..3156,1..668)
+                     /note="nonfunctional large S protein due to mutation"
+     misc_feature    1647..2291
+                     /note="nonfunctional precore/core protein due to mutation"
+ORIGIN      
+        1 ttttcctgct ggtggcncca gttcaggaan nnnnnnccct gctccgaata tnnnnnnnnn
+       61 nnnnncgtca atcnccgcga ggnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnncatc
+      121 aggattccta ggacccctgc tcgtgttaca ggcggggttt ttcttgttga caagaatcct
+      181 cacaataccg cagagtctag actcgtggtg gacttctctc aattttctag ggggatcacc
+      241 cgtgtgtctt ggccaaaatt cgcagtcccc aacctccaat cactcaccaa cctcctgtcc
+      301 tccaatttgt cctggttatc gctggatgtg tctgcggcgt tttatcatat tcctcttcat
+      361 cctgctgcta tgcctcatct tcttattggt tcttctggat tatcaaggta tgttgcccgt
+      421 ttgtcctcta attccaggat caacaacaac cagcacggga ccctgcaaaa cctgcacgac
+      481 tcctgctcaa ggcaactcta tgtttccctc atgttgctgt acaaaaccta cggatggaaa
+      541 ttgcacctgt attcccatcc catcatcytg ggctttcgca aaatacctat gggagtgggc
+      601 ctcagtccgt ttctcttggc tcagtttact agtgccattt gttcagtggt tcgtagggct
+      661 ttcccccact gtttggcttt cagctatatg gatgatgtgg tactgggggc caagtctgta
+      721 cagcatcttg agtcccttta taccgctgtt accaattttc ttttgtcttt gggtatacat
+      781 ttaaacccta acaaaacaaa aagatggggt tattccctga atttcatggg ttatgtaatt
+      841 ggaagttggg gtacattgcc acaggatcat attgtacaaa aaatcaaaca ctgttttagg
+      901 aaacttcctg tcaatcgacc tattgattgg aaagtatgtc agagaattgt gggtcttttg
+      961 ggctttgccg ctccatttac acaatgtggt taccctgcat taatgccttt gtatgcatgt
+     1021 atacaagcga aacaggcttt tactttctcg ccaacttaca aggcctttct aagtaaacag
+     1081 tatgtgaacc tttaccccgt tgcccggcaa cggcctggtc tgtgccaagt gtttgctgac
+     1141 gcaaccccca ctggttgggg cttggccatc ggccatcagc gcatgcgtgg aacctttgtg
+     1201 gctcctctgc cgatccatac tgcggaactc ctagccgctt gttttgctcg cagccggtct
+     1261 ggagcaaaac tcatcgggac tgataattct gtcgtccttt ctcggaaata tacatcattt
+     1321 ccatggctgc taggttgtac tgccaactgg attcttcgcg ggacgtcctt tgtttacgtc
+     1381 ccgtcggcgc tgaatcccgc ggacgacccc tcgcggggcc gcttggggct gtatcgtccc
+     1441 cttctccgtc tgccgtaccg tccgaccacg gggcgcacct ctctttacgc ggtctccccg
+     1501 tctgtgcctt ctcatctgcc ggtccgtgtg cacttcgctt cacctctgca cgttgcatgg
+     1561 agaccaccgt gaacgcccat caggtcctgc ccaaggtctt acataagagg actcttggac
+     1621 tctcagcaat gtcaacgacc gaccttgagg cctacttcaa agactgtgtg tttaaagact
+     1681 gggaggagtt gggggaggag attaggttaa aggtctttgt attaggaggc tgtaggcata
+     1741 aattggtctg cgcaccatca tcatgcaact ttttcacctc tgcctaatca tctcttgtac
+     1801 atgtcccact tttcaagcct ccaagctgtg ccttggatgg ctttggggca tggacattga
+     1861 cccttataaa gaatttggag ctactgtgga gttactctca tttttgcctt ctgacttctt
+     1921 tccttccgtc cgggatctac tagatacagc ctcagctcta tatcgggaag ccttagagtc
+     1981 tcctgagcat tgctcacctc accatacagc actcaggcaa gccattctct gctgggggga
+     2041 attaatgact ctagctacct gggtgggtaa taatttggaa gatccagcat ccagggatct
+     2101 agtagtcaat tatgttaata ctaacatggg cctaaagatc aggcaattat tgtggtttca
+     2161 tatttcttgc cttacttttg gaagagaaac tgtacttgag tatttggtct ctttcggagt
+     2221 gtggattcgc actcctccag cctatagacc accaaatgcc cctatcttat caacacttcc
+     2281 ggaaactact gttgttagac gacgagaccg aggcaggtcc cctagaagaa gaactccctc
+     2341 gcctcgcaga cgaagatctc aatcgccgcg tcgcagaaga tctcaatctc gggaatctca
+     2401 atgttagtat tccttggact cataaggtgg gaaattttac tgggctttat tcttctactg
+     2461 tccctatctt taatcctgaa tggcaaaccc cttcytttcc taaaattcat ttacatgaag
+     2521 acattgctaa taggtgtcag caatttgtag gccctctcac tgtaaatgaa aaaagaagat
+     2581 tgaaattaat tatgcctgct aggttttatc ctaacagcac aaaatatttg cctttagaca
+     2641 aagggattaa accttattat cctgatcatg tagttaatca ttactttcaa acccgacatt
+     2701 atttacatac tctttggaag gctgggattc tatataagag agaaactaca cgtagcgcct
+     2761 cattttgcgg gtcaccatat tcttgggaac aagagctaca tcatgggagg ttggtcatca
+     2821 aaacctcgca aaggcatggg gacgaacctt tctgttccca accctctggg attctttccc
+     2881 gatcatcagt tggaccctgc attcggagcc aattcaaaca atccagattg ggacttcaac
+     2941 cccatcaagg accactggcc ammagccaac caggtaggag tgggagcttt cgggccagga
+     3001 ttcactcccc cacacggagg tgttttgggg tggagccctc aggctcaggg catattggcc
+     3061 acagtgccag cagtgcctcc tcctgcctcc accaatcggc agtcaggacg acagcctact
+     3121 cccatcnctc cacctctnnn nnnnnntcat cctcag
+//

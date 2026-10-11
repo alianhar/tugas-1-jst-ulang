@@ -1,0 +1,77 @@
+{
+  "integritas": {
+    "dataset1": 310,
+    "dataset2": 310,
+    "dataset3": 620,
+    "pasangan_tidak_lengkap": 0,
+    "header_duplikat": 0
+  },
+  "distribusi_kelas": {
+    "A": 45,
+    "B": 45,
+    "C": 45,
+    "D": 45,
+    "E": 45,
+    "F": 45,
+    "G": 24,
+    "H": 16
+  },
+  "rasio_ketidakseimbangan": 2.812,
+  "baseline_mayoritas_persen": 14.52,
+  "overlap": {
+    "rekaman_S_penuh_di_dalam_P": 310,
+    "total_rekaman": 310,
+    "union_sama_dengan_P": 310,
+    "rerata_S_diluar_P_bp": 0.0,
+    "total_bp_dataset3": 1154028,
+    "total_bp_unik_union": 783273,
+    "persen_bp_redundan": 32.13
+  },
+  "keutuhan_cds": {
+    "S_total": 310,
+    "S_kelipatan3": 310,
+    "S_start_ATG": 310,
+    "S_stop_diakhir": 310,
+    "P_total": 310,
+    "P_kelipatan3": 310,
+    "P_start_ATG": 310,
+    "P_stop_diakhir": 310
+  },
+  "kemiripan": {
+    "S": {
+      "identik_persis": 0,
+      "pasangan_jaccard_di_atas_0_95": 54,
+      "jaccard_maksimum": 0.9801,
+      "pasangan_termirip": [
+        "EU306700.1",
+        "EU306708.1"
+      ]
+    },
+    "P": {
+      "identik_persis": 0,
+      "pasangan_jaccard_di_atas_0_95": 45,
+      "jaccard_maksimum": 0.9905,
+      "pasangan_termirip": [
+        "FJ709458.2",
+        "HM585191.1"
+      ]
+    }
+  },
+  "sebab_penolakan": {
+    "anotasi gen S tidak ada": 573,
+    "gen P memuat N basa non-ACGT": 413,
+    "anotasi gen P tidak ada": 342,
+    "gen S memuat N basa non-ACGT": 259,
+    "panjang gen S di luar rentang (N bp)": 237,
+    "genotipe tidak tercantum": 146,
+    "gen S duplikat dengan rekaman lain": 143,
+    "panjang gen P di luar rentang (N bp)": 38,
+    "rekombinan/antar-genotipe": 38,
+    "CDS gen P parsial": 7,
+    "CDS gen S parsial": 3,
+    "genotipe ambigu (A/E)": 1
+  },
+  "jumlah_diperiksa": 2309,
+  "jumlah_layak": 902,
+  "jumlah_dataset_final": 310
+}

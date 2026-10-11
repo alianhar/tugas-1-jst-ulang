@@ -1,0 +1,232 @@
+
+LOCUS       AJ748098                3197 bp    DNA     circular VRL 05-MAY-2005
+DEFINITION  Hepatitis B virus complete genome, genotype C.
+ACCESSION   AJ748098
+VERSION     AJ748098.1
+KEYWORDS    C gene; complete genome; core antigen; HBsAg gene; large surface
+            antigen; major surface antigen; middle surface antigen; Pol gene;
+            polymerase; PreC gene; precore protein; PreS1 gene; PreS2 gene; X
+            gene; x protein.
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1
+  AUTHORS   Margeridon,S., Lachaux,A., Trepo,C., Zoulim,F. and Kay,A.
+  TITLE     A quasi-monoclonal anti-HBs response can lead to immune escape of
+            'wild-type' hepatitis B virus
+  JOURNAL   J. Gen. Virol. 86 (PT 6), 1687-1693 (2005)
+   PUBMED   15914846
+REFERENCE   2  (bases 1 to 3197)
+  AUTHORS   Kay,A.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2004) Kay A.C., U271, Inserm, 151 cours Albert
+            Thomas, Lyon, 69003, FRANCE
+FEATURES             Location/Qualifiers
+     source          1..3197
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /serotype="adr"
+                     /isolate="patient Z1"
+                     /db_xref="taxon:10407"
+                     /tissue_type="serum"
+                     /geo_loc_name="Viet Nam"
+                     /note="genotype C"
+     gene            order(2307..3197,1..1623)
+                     /gene="Pol"
+     CDS             join(2307..3197,1..1623)
+                     /gene="Pol"
+                     /function="reverse transcriptase-DNA polymerase"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="CAG37967.1"
+                     /db_xref="GOA:Q5F4J1"
+                     /db_xref="InterPro:IPR000201"
+                     /db_xref="InterPro:IPR000477"
+                     /db_xref="InterPro:IPR001462"
+                     /db_xref="UniProtKB/TrEMBL:Q5F4J1"
+                     /translation="MPLSYQHFRKLLLLDDEAGPLEEELPRLADEGLNRRVAEDLNLG
+                     NLNVSIPWTHKVGNFTGLYSSTVPVFNPDWLTPSFPNIHLKEDIINRCQQYVGPLTVN
+                     EKRRLKLILPARFYPNRTKYLPLDKGIKPYYPEHIVNHYFQTRHYLHTLWKAGILYKR
+                     ETTRSASFCGSPYSWEQELQQTSTRHGDESFCSQSSGILSQSPVGPCIQSQFKQSRLG
+                     LQPQQGSMASGTPGRSGILRARVHSTTRQSSGVEPSGSGHIDNSTSSASSCLHQSAVR
+                     KTAYSHLSTSKRQSSSGHAVELQHIPPSSARSQSEGPILSCWWLQFRNSKPCSDYCLS
+                     HIVNLLEDWGPCTEYGEHLIRIPRTPARVTGGVFLVDKNPHNTTESRLVVDFSQFSRG
+                     STHVSWPKFAVPNLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLPR
+                     YVARLSSTSRNINYQHGTMQDLHDSCSRNLYVSLLLLYKTFGRKLHLYSHPIILGFRK
+                     IPMGVGLSPFLLAQFTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTN
+                     FLLSLGIHLNPAKTKRWGYSLHFMGYVIGSWGTLPQEHIVHKIKQCFRKLPINRPIDW
+                     KVCQRIVGLLGFAAPFTQCGYPALMPLYACIQAKQAFTFSPTYKAFLCKQYLNLYPVA
+                     RQRSGLCQVFADATPTGWGLAIGHQRMRGTFVAPLPIHTAELLAACFARSRSGANILG
+                     TDNSVVLSRKYTSFPWLLGCAANWILRGTSFVYVPSALNPADDPSRGRLGLYRPLLRL
+                     PFRPTTGRTSLYAVSPSVPSHLPDRVHFASPLHVAWRPP"
+     gene            order(2863..3197,1..835)
+                     /gene="PreS1"
+     CDS             join(2863..3197,1..835)
+                     /gene="PreS1"
+                     /function="envelope protein"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="large surface antigen"
+                     /protein_id="CAG37968.1"
+                     /db_xref="GOA:Q5F4J0"
+                     /db_xref="InterPro:IPR000349"
+                     /db_xref="UniProtKB/TrEMBL:Q5F4J0"
+                     /translation="MGTNLSVPNPLGFFPSHQLDPAFRANSNNPDWDFNPNKDQWPAA
+                     HQVGVGSFGPGFTPPHGNLLGWSPQAQGILTTVPAAPPPASTNRQSGRQPTPISPPLR
+                     DSHPQAMQWNSSTFHQALLDPRVRGLYFPAGGSSSGTVNPVPTTASPISSIFSRTGDP
+                     APNMESTSSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGAPTCPGQNLQS
+                     PTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLLPGT
+                     STTSTGPCKTCTTPAQGTSMFPSCCCTKPSDGNCTCIPIPSSWAFARFLWEWASVRFS
+                     WLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYNILNPFLPLLPIFFCLWVYI"
+     gene            order(3187..3197,1..835)
+                     /gene="PreS2"
+     CDS             join(3187..3197,1..835)
+                     /gene="PreS2"
+                     /function="envelope protein"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="middle surface antigen"
+                     /protein_id="CAG37969.1"
+                     /db_xref="GOA:Q5F4I9"
+                     /db_xref="InterPro:IPR000349"
+                     /db_xref="UniProtKB/TrEMBL:Q5F4I9"
+                     /translation="MQWNSSTFHQALLDPRVRGLYFPAGGSSSGTVNPVPTTASPISS
+                     IFSRTGDPAPNMESTSSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGAPT
+                     CPGQNLQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLP
+                     VCPLLPGTSTTSTGPCKTCTTPAQGTSMFPSCCCTKPSDGNCTCIPIPSSWAFARFLW
+                     EWASVRFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYNILNPFLPLLPIFFC
+                     LWVYI"
+     gene            155..835
+                     /gene="HBsAg"
+     CDS             155..835
+                     /gene="HBsAg"
+                     /function="envelope protein"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="major surface antigen"
+                     /protein_id="CAG37970.1"
+                     /db_xref="GOA:Q5F4I8"
+                     /db_xref="InterPro:IPR000349"
+                     /db_xref="UniProtKB/TrEMBL:Q5F4I8"
+                     /translation="MESTSSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGG
+                     APTCPGQNLQSPTSNHSPTSCPPICPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQG
+                     MLPVCPLLPGTSTTSTGPCKTCTTPAQGTSMFPSCCCTKPSDGNCTCIPIPSSWAFAR
+                     FLWEWASVRFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYNILNPFLPLLPI
+                     FFCLWVYI"
+     gene            1374..1838
+                     /gene="X"
+     CDS             1374..1838
+                     /gene="X"
+                     /function="putative transcriptional transactivator"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="x protein"
+                     /protein_id="CAG37971.1"
+                     /db_xref="GOA:Q5F4I7"
+                     /db_xref="InterPro:IPR000236"
+                     /db_xref="UniProtKB/TrEMBL:Q5F4I7"
+                     /translation="MAARLCCQLDPARDVLCLRPVSAESRGRPVAGPFGTLPSPSSSA
+                     VPADHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNARQVLPKVLHKRTLGLSA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLKVFVLGGCRHKLVCSPAPCNFFTSA"
+     gene            1814..2452
+                     /gene="PreC"
+     CDS             1814..2452
+                     /gene="PreC"
+                     /function="soluble secreted antigen"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="precore protein"
+                     /protein_id="CAG37972.1"
+                     /db_xref="GOA:Q89714"
+                     /db_xref="InterPro:IPR002006"
+                     /db_xref="InterPro:IPR013195"
+                     /db_xref="UniProtKB/TrEMBL:Q89714"
+                     /translation="MQLFHLCLIISCSCPTVQASKLCLGWLWGMDIDPYKEFGASVEL
+                     LSFLPSDFFPSIRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMNLATWVG
+                     SNLEDPASRELVVSYVNVNMGLKIRQLLWFHISCLTFGRETVLEYLVSFGVWIRTPPA
+                     YRPPNAPILSTLPETTVVRRRGRSPRRRTPSPRRRRSQSPRRRRSQSRESQC"
+     gene            1901..2452
+                     /gene="C"
+     CDS             1901..2452
+                     /gene="C"
+                     /function="capsid protein"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="core antigen"
+                     /protein_id="CAG37973.1"
+                     /db_xref="GOA:Q784Z8"
+                     /db_xref="InterPro:IPR002006"
+                     /db_xref="UniProtKB/TrEMBL:Q784Z8"
+                     /translation="MDIDPYKEFGASVELLSFLPSDFFPSIRDLLDTASALYREALES
+                     PEHCSPHHTALRQAILCWGELMNLATWVGSNLEDPASRELVVSYVNVNMGLKIRQLLW
+                     FHISCLTFGRETVLEYLVSFGVWIRTPPAYRPPNAPILSTLPETTVVRRRGRSPRRRT
+                     PSPRRRRSQSPRRRRSQSRESQC"
+     regulatory      1916..1921
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="C"
+ORIGIN      
+        1 ctccagcaca ttccaccaag ctctgctaga tcccagagtg aggggcctat actttcctgc
+       61 tggtggctcc agttccggaa cagtaaaccc tgttccgact actgcctctc ccatatcgtc
+      121 aatcttctcg aggactgggg accctgcacc gaatatggag agcacctcat caggattcct
+      181 aggacccctg ctcgtgttac aggcggggtt tttcttgttg acaagaatcc tcacaatacc
+      241 acagagtcta gactcgtggt ggacttctct caattttcta gggggagcac ccacgtgtcc
+      301 tggccaaaat ttgcagtccc caacctccaa tcactcacca acctcttgtc ctccaatttg
+      361 tcctggttat cgctggatgt gtctgcggcg ttttatcatc ttcctcttca tcctgctgct
+      421 atgcctcatc ttcttgttgg ttcttctgga ctaccaaggt atgttgcccg tttgtcctct
+      481 acttccagga acatcaacta ccagcacggg accatgcaag acctgcacga ctcctgctca
+      541 aggaacctct atgtttccct cttgttgctg tacaaaacct tcggacggaa attgcacttg
+      601 tattcccatc ccatcatctt gggctttcgc aagattccta tgggagtggg cctcagtccg
+      661 tttctcctgg ctcagtttac tagtgccatt tgttcagtgg ttcgtagggc tttcccccac
+      721 tgtttggctt tcagttatat ggatgatgtg gtattggggg ccaagtctgt acaacatctt
+      781 gaatcccttt ttaccgctgt taccaatttt cttttgtctt tgggtataca tttaaaccct
+      841 gctaaaacca aacgttgggg ctactccctt cacttcatgg gatatgtaat tggaagttgg
+      901 ggtacattac cacaggaaca tattgtacac aaaatcaaac aatgttttcg gaaacttcct
+      961 ataaatagac ctattgattg gaaagtatgt caacgaatcg tggggcttct gggcttcgcc
+     1021 gctcccttta cacaatgtgg ttacccagca ttaatgcctt tgtatgcatg tatacaggct
+     1081 aagcaggctt tcactttctc gccaacttac aaggcctttc tgtgtaaaca atatctgaac
+     1141 ctttaccccg ttgcgcggca acggtcaggt ctttgccaag tgtttgctga cgcaaccccc
+     1201 actggttggg gcttggccat aggccatcag cgcatgcgtg gaacctttgt ggctcctctg
+     1261 ccgatccata ctgcggaact cctagcagct tgttttgctc gcagccggtc tggagcaaac
+     1321 attctcggca ccgacaactc tgtggtcctc tctcggaaat acacctcctt tccatggctg
+     1381 ctaggctgtg ctgccaactg gatcctgcgc gggacgtcct ttgtctacgt cccgtcagcg
+     1441 ctgaatcccg cggacgaccc gtcgcggggc cgtttgggac tctaccgtcc ccttcttcgt
+     1501 ctgccgttcc ggccgaccac ggggcgcacc tctctttacg cggtctcccc gtctgtgcct
+     1561 tctcatctgc cggaccgtgt gcacttcgct tcacctctgc acgtcgcatg gagaccaccg
+     1621 tgaacgcccg ccaggtcttg cccaaggtct tacataagag gactcttgga ctctcagcaa
+     1681 tgtcaacgac cgaccttgag gcatacttca aagactgtgt atttaaagac tgggaggagt
+     1741 tgggggagga gattagatta aaggtctttg tactgggagg ctgtaggcat aaattggtct
+     1801 gttcaccagc accatgcaac tttttcacct ctgcctaatc atctcatgtt catgtcccac
+     1861 tgttcaagcc tccaagctgt gccttgggtg gctttggggc atggacattg acccgtataa
+     1921 agaatttgga gcttctgtgg agttactctc ttttttgcct tctgacttct ttccttctat
+     1981 tcgtgatctc ctcgacaccg cctctgctct gtatcgggag gccttagagt ctccggaaca
+     2041 ttgttcacct catcatacag cactaaggca agctattctg tgttggggtg agttgatgaa
+     2101 tctcgccacc tgggtgggaa gtaatttgga agacccagca tccagggaat tagtagtaag
+     2161 ctatgtcaat gttaatatgg gcctaaaaat cagacaacta ttgtggtttc acatttcctg
+     2221 tcttactttt ggaagagaaa ctgttcttga gtatttggtg tcttttggag tgtggattcg
+     2281 cactcctcct gcttacagac caccaaatgc ccctatctta tcaacacttc cggaaactac
+     2341 tgttgttaga cgacgaggca ggtcccctag aagaagaact ccctcgcctc gcagacgaag
+     2401 gtctcaatcg ccgcgtcgca gaagatctca atctcgggaa tctcaatgtt agtatccctt
+     2461 ggactcataa ggtgggaaac tttactgggc tttattcttc tactgtacct gtctttaatc
+     2521 ctgactggct aactccctct tttcctaaca ttcatttgaa agaggatatt atcaatagat
+     2581 gtcaacaata tgtgggcccc ctcacagtta acgaaaaaag gagattaaaa ttgatattgc
+     2641 ctgctaggtt ctatcctaac cgtaccaaat atttgccctt agataaaggc attaaacctt
+     2701 attatcctga acacatagtt aatcattact tccaaactag gcattattta catactctgt
+     2761 ggaaggctgg tattttatat aagagagaaa ctactcgtag cgcctcattt tgtgggtcac
+     2821 catattcttg ggaacaagag ctacagcaaa cctcgacaag gcatggggac gaatctttct
+     2881 gttcccaatc ctctgggatt ctttcccagt caccagttgg accctgcatt cagagccaat
+     2941 tcaaacaatc cagattggga cttcaacccc aacaaggatc aatggccagc ggcacaccag
+     3001 gtaggagtgg gatccttcgg gccagggttc actccaccac acggcaatct tctggggtgg
+     3061 agccctcagg ctcagggcat attgacaaca gtaccagcag cgcctcctcc tgcctccacc
+     3121 aatcggcagt caggaagaca gcctactccc atctctccac ctctaagaga cagtcatcct
+     3181 caggccatgc agtggaa
+//

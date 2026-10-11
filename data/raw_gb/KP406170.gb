@@ -1,0 +1,163 @@
+
+LOCUS       KP406170                3131 bp    DNA     circular VRL 27-JAN-2015
+DEFINITION  Hepatitis B virus isolate D2_2_4, partial genome.
+ACCESSION   KP406170
+VERSION     KP406170.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3131)
+  AUTHORS   Lin,Y.Y., Liu,C., Chien,W.H., Wu,L.L., Tao,Y., Wu,D., Lu,X.,
+            HsieH,C.H., Chen,P.J., Wang,H.Y., Kao,J.H. and Chen,D.S.
+  TITLE     New insights into the evolutionary rate of hepatitis B virus at
+            different biological scales
+  JOURNAL   J. Virol. (2015) In press
+   PUBMED   25589664
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 3131)
+  AUTHORS   Lin,Y.-Y., Liu,C. and Wang,H.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2015) Graduate Institute of Clinical Medicine,
+            National Taiwan University, No. 7.Chung San South Road, Taipei
+            10002, Taiwan
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3131
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="D2_2_4"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="Taiwan"
+                     /collection_date="2000"
+                     /note="genotype: B"
+     gene            join(2290..3131,1..1606)
+                     /locus_tag="HBVgp1"
+     CDS             join(2290..3131,1..1606)
+                     /locus_tag="HBVgp1"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="AJF14664.1"
+                     /translation="MPLSYQHFRKLLLLDEDAGPLEEELPRLADEGLNRRVAEDLNLG
+                     DLNVSIPWTHKVGNFTGLYSSTVPCFNPKWQTPSFPDIHLQEDIVDRCKQFVGPLTVN
+                     ENRRLKLIMPARFYPNVTKYLPLDKGIKPYYPEYVVHHYFQTRHYLHTLWKAGILYKR
+                     ESTRSASFCGSPYSWEQDLQHGRLVFQTSKRHGDKSFCPQSPGILPRSSVGPCIQSQL
+                     RKSRLGPQPAQGQLAGRQQGGSGSIRARVHPSPWGTVGVAPSGSGPTHNCASSSSSCL
+                     HQSAVNSSRSQSQGPELSCWWLQFRNSEPCSEYCLCHIVNLIEDWGPCTEHGEHRIRT
+                     PRTPARVTGGVFLVDKNPHNTTESRLVVDFSQFSRGNTRVSWPKFAVPNLQSLTNLLS
+                     SNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRIINNQHRTMQNL
+                     HNSCSRKLYVSLMLLYKTYGRKLHLYSHPIILGFRKIPMGVSLSPFLLAQFTNAICSV
+                     VRRAFPHCLAFSYMDDVVLGAKSVQHLESLYAAVTNFLLSLGIHLNPHKTKRWGYSLN
+                     FMGYVIGSWGTLPQEHIVQKIKMCFRKLPVNRPIDWKVCQRIVGLLGFAAPFTQCGYP
+                     ALMPLYACIQAKQAFTFSPTYKAFLSKQYLNLYPVARQRPGLCQVFADATPTGWGLAI
+                     GHQRMRGTFVSPLPIHTAELLAACFARSRSGAKLIGTDNSVVLSRKYTSFPWLLGCAA
+                     NWILRGTSFVYVPSALNPADDPSRGRLGLYRPLLRLLYRPTTGRTSLYADSPSVPSHL
+                     PDRVHFASPLHVAWRPP"
+     gene            join(2831..3131,1..818)
+                     /locus_tag="HBVgp2"
+     misc_feature    join(2831..3131,1..818)
+                     /locus_tag="HBVgp2"
+                     /note="nonfunctional large S protein due to mutation"
+     CDS             <1..>818
+                     /locus_tag="HBVgp2"
+                     /codon_start=2
+                     /product="middle S protein"
+                     /protein_id="AJF14665.1"
+                     /translation="NSSRSQSQGPELSCWWLQFRNSEPCSEYCLCHIVNLIEDWGPCT
+                     EHGEHRIRTPRTPARVTGGVFLVDKNPHNTTESRLVVDFSQFSRGNTRVSWPKFAVPN
+                     LQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRIIN
+                     NQHRTMQNLHNSCSRKLYVSLMLLYKTYGRKLHLYSHPIILGFRKIPMGVSLSPFLLA
+                     QFTNAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLYAAVTNFLLSLGIHL"
+     misc_feature    138..818
+                     /locus_tag="HBVgp2"
+                     /note="nonfunctional S protein due to mutation"
+     gene            1357..1821
+                     /locus_tag="HBVgp3"
+     CDS             1357..1821
+                     /locus_tag="HBVgp3"
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="AJF14666.1"
+                     /translation="MAARLCCQLDPARDVLCLRPVGAESRGRPLPGPLGALPPASPPI
+                     VPTDHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNAHGNLPKVLHKRTLGLSA
+                     MSTTDLEAYFKDCVFNEWEELGEEVRLKVFVLGGCRQNSIRPIVSRITLTSA"
+     gene            1797..2435
+                     /locus_tag="HBVgp4"
+     CDS             <1797..2435
+                     /locus_tag="HBVgp4"
+                     /codon_start=1
+                     /product="precore/core protein"
+                     /protein_id="AJF14667.1"
+                     /translation="PYYTHLCLIISCSCPTVQASKLCLGWLWGMDIDPYKEFGASVEL
+                     LSFLPSDFFPSIRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMNLATWVG
+                     SNLEDPASRELVVSYVNDNTGLKIRHLLWFHNSCLTFGRETVLEYLVSFGVWIRTPPA
+                     YRPPNAPILSTLPETTVVRRRCRSPRRRTPSPRRRRSQSPRRRRSQSRGSQC"
+     CDS             1884..2435
+                     /locus_tag="HBVgp4"
+                     /codon_start=1
+                     /product="core"
+                     /protein_id="AJF14668.1"
+                     /translation="MDIDPYKEFGASVELLSFLPSDFFPSIRDLLDTASALYREALES
+                     PEHCSPHHTALRQAILCWGELMNLATWVGSNLEDPASRELVVSYVNDNTGLKIRHLLW
+                     FHNSCLTFGRETVLEYLVSFGVWIRTPPAYRPPNAPILSTLPETTVVRRRCRSPRRRT
+                     PSPRRRRSQSPRRRRSQSRGSQC"
+ORIGIN      
+        1 aaactcttca agatcccaga gtcagggccc tgaactttcc tgctggtggc tccagttcag
+       61 gaacagtgag ccctgctcag aatactgtct ctgccatatc gtcaatctta tcgaagactg
+      121 gggaccctgt accgaacatg gagaacatcg catcaggact cctaggaccc ctgctcgtgt
+      181 tacaggcggg gtttttcttg ttgacaaaaa tcctcataat accacagagt ctagactcgt
+      241 ggtggacttc tctcaatttt ctagggggaa cacccgtgtg tcttggccaa aattcgcagt
+      301 cccaaatctc cagtcactca ctaacctgtt gtcctccaat ttgtcctggt tatcgctgga
+      361 tgtgtctgcg gcgttttatc atcttcctct gcatcctgct gctatgcctc atcttcttgt
+      421 tggttcttct ggactatcaa ggtatgttgc ccgtttgtcc tctaattcca ggatcatcaa
+      481 caaccagcac cggaccatgc aaaacctgca caactcctgc tcaaggaaac tctatgtttc
+      541 cctcatgttg ctgtacaaaa cctacggacg gaaactgcac ctgtattccc atcccatcat
+      601 cttgggcttt cgcaaaatac ctatgggagt gagcctcagt ccgtttctct tggctcagtt
+      661 tactaatgcc atttgttcag tggttcgtag ggctttcccc cactgtctgg ctttcagtta
+      721 tatggatgat gtggttttgg gggccaagtc tgtacaacat cttgagtccc tttatgccgc
+      781 tgttaccaat tttcttttgt ctttgggtat acatttaaac cctcacaaaa caaaaagatg
+      841 gggatactcc cttaacttca tgggatatgt aattgggagt tggggcacat tgccacagga
+      901 acatattgta caaaaaatca aaatgtgttt taggaaactt cctgtaaaca ggcctattga
+      961 ttggaaagta tgtcaacgaa ttgtgggtct tttggggttt gccgcccctt tcacgcaatg
+     1021 tggatatcct gctttaatgc ctttatatgc atgtatacaa gcaaaacagg cttttacttt
+     1081 ctcgccaacc tacaaggcct ttctaagtaa acagtatctg aacctttacc ccgttgctcg
+     1141 gcaacggcct ggtctgtgcc aagtgtttgc tgacgcaacc cccactggtt ggggcttggc
+     1201 cataggccat cagcgcatgc gtggaacctt tgtgtctcct ctgccgatcc atactgcgga
+     1261 actcctagcc gcttgttttg ctcgcagcag gtctggggca aaactcatcg ggactgacaa
+     1321 ttctgtcgtg ctctcccgca agtatacatc atttccatgg ctgctaggct gtgctgccaa
+     1381 ctggatcctg cgcgggacgt cctttgttta cgtcccgtcg gcgctgaatc ccgcggacga
+     1441 cccctcccgg ggccgcttgg ggctctaccg cccgcttctc cgcctattgt accgaccgac
+     1501 cacggggcgc acctctcttt acgcggactc cccgtctgtg ccttctcatc tgccggaccg
+     1561 tgtgcacttc gcttcacctc tgcacgtcgc atggagacca ccgtgaacgc ccacgggaac
+     1621 ctgcccaagg tcttgcataa gaggactctt ggactttcag caatgtcaac gaccgacctt
+     1681 gaggcatact tcaaagactg tgtgtttaat gagtgggagg agttggggga ggaggttagg
+     1741 ttaaaggtct ttgtactagg aggctgtagg caaaattcaa ttcgccctat agtgagccgt
+     1801 attacactca cctctgccta atcatctcat gttcatgtcc tactgttcaa gcctccaagc
+     1861 tgtgccttgg gtggctttgg ggcatggaca ttgacccgta taaagaattt ggagcttctg
+     1921 tggagttact ctcttttttg ccttctgact tctttccttc tattcgagat ctcctcgaca
+     1981 ccgcctctgc tctgtatcgg gaggccttag agtctccgga acattgttca cctcaccata
+     2041 cggcactcag gcaagctatt ctgtgttggg gtgagttaat gaatctagcc acctgggtgg
+     2101 gaagtaattt ggaagatcca gcatccaggg aattagtagt cagctatgtc aacgataata
+     2161 cgggcctaaa aatcagacat ttattgtggt ttcacaattc ctgtcttact tttgggagag
+     2221 aaactgttct tgaatatttg gtgtcttttg gagtgtggat tcgcactcct cctgcatata
+     2281 gaccaccaaa tgcccctatc ttatcaacac ttccggaaac tactgttgtt agacgaagat
+     2341 gcaggtcccc tagaagaaga actccctcgc ctcgcagacg aaggtctcaa tcgccgcgtc
+     2401 gcagaagatc tcaatctcgg ggatctcaat gttagtattc cttggacaca taaggtggga
+     2461 aactttacgg ggctttattc ttctacggta ccttgcttta atcctaaatg gcaaactcct
+     2521 tcttttcctg acatccattt gcaggaggac attgttgata gatgtaagca atttgtgggg
+     2581 ccccttacag taaatgaaaa caggagacta aagttaatta tgcctgctag gttttatccc
+     2641 aatgttacta aatatttgcc cttagataaa ggaatcaaac cgtattatcc agagtatgtg
+     2701 gttcatcatt actttcagac gcgacattat ttacacactc tttggaaggc ggggatctta
+     2761 tataaaagag agtccacacg tagcgcctca ttttgcgggt caccatattc ttgggaacaa
+     2821 gatctacagc atgggaggtt ggtcttccaa acctcgaaaa ggcatgggga caaatctttc
+     2881 tgtccccaat cccctgggat tcttccccga tcatcagttg gaccctgcat tcaaagccaa
+     2941 ctcagaaaat cccgattggg acctcaaccc gcacaaggac aactggccgg acgccaacaa
+     3001 ggtgggagtg ggagcattcg ggccagggtt cacccctccc catgggggac tgttggggtg
+     3061 gcgccctcag gctcagggcc tactcacaac tgtgccagca gctcctcctc ctgcctccac
+     3121 caatcggcag t
+//

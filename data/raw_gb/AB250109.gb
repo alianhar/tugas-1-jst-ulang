@@ -1,0 +1,124 @@
+
+LOCUS       AB250109                3165 bp    DNA     circular VRL 28-APR-2006
+DEFINITION  Hepatitis B virus DNA, complete genome, isolate: IH030213.
+ACCESSION   AB250109
+VERSION     AB250109.1
+KEYWORDS    .
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1
+  AUTHORS   Suzuki,F., Akuta,N., Suzuki,Y., Sezaki,H., Arase,Y., Hosaka,T.,
+            Someya,T., Kobayashi,M., Saitoh,S., Ikeda,K., Kobayashi,M.,
+            Matsuda,M., Satoh,J., Watahiki,S. and Kumada,H.
+  TITLE     Clinical and virological features of non-breakthrough and severe
+            exacerbation due to lamivudine-resistant hepatitis B virus mutants
+  JOURNAL   J. Med. Virol. 78 (3), 341-352 (2006)
+   PUBMED   16419116
+REFERENCE   2  (bases 1 to 3165)
+  AUTHORS   Suzuki,F., Kumada,H., Akuta,N., Suzuki,Y., Arase,Y., Hosaka,T.,
+            Someya,T., Kobayashi,M., Saitoh,S., Ikeda,K., Kobayashi,M. and
+            Sezaki,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2006) Fumitaka Suzuki, Toranomon Hospital,
+            Department of Gastroenterology; 2-2-2 Toranomon, Minato-ku, Tokyo
+            105-8470, Japan (E-mail:fumitakas@toranomon.gr.jp, Tel:81448775111,
+            Fax:81448601623)
+FEATURES             Location/Qualifiers
+     source          1..3165
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="IH030213"
+                     /isolation_source="isolate from patient with severe
+                     exacerbation due to lamivudine-resistant virus"
+                     /db_xref="taxon:10407"
+                     /geo_loc_name="Japan:Kanagawa, Kawasaki"
+                     /note="genotype: C"
+     gene            join(2257..3165,1..1573)
+                     /gene="P"
+     misc_feature    join(2257..3165,1..1573)
+                     /gene="P"
+                     /note="polymerase"
+     gene            join(2798..3165,1..785)
+                     /gene="preS1/preS2/S"
+     misc_feature    join(2798..3165,1..785)
+                     /gene="preS1/preS2/S"
+                     /note="preS1/preS2/S envelope protein"
+     gene            1324..1788
+                     /gene="X"
+     CDS             1324..1788
+                     /gene="X"
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="BAE79638.1"
+                     /translation="MAARVCCQLDPARDVLCLRPVGAESRGRPVSGPFGTLSSPPSSA
+                     VPADHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNARQVLPKVLYKRTLGLSA
+                     MSTTDLEAYFKDCVFKDWEELGEEIRLMIFVLGGCRHKLVCSPAPCNFFTSA"
+     gene            1764..2402
+                     /gene="preC/C"
+     CDS             1764..2402
+                     /gene="preC/C"
+                     /codon_start=1
+                     /product="precore/core"
+                     /protein_id="BAE79639.1"
+                     /translation="MQLFHLCLIISCSCPTVQASKLCLGWLWGMDIDPYKEFGASVEL
+                     LSFLPSDFFPSIRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMNLATWVG
+                     SNLEDPASRELVVSYVNVNMGLKIRQLLWFHISCLTFGRETVLEYLVSFGVWIRTPPA
+                     YRPPNAPILSTLPETTVVRCRGRTPRRRTPSPRRRRSQSPRRRRSQSRESQC"
+ORIGIN      
+        1 ctcctcctgc tggtggctcc agttccggaa cagtaaaccc tgttccgact actgccttgc
+       61 ccatatcgtc aatcttctcg aggactgggg accctgcacc gaacatggag aacacaacat
+      121 caggattcct aggacccctg ctcgtgttac aggcggggtt tttcttgttg acaagaatcc
+      181 tcacaatacc acagagtcta gactcgtggt ggacttctct caattttcta gggggagcac
+      241 ccacgtgtcc tggccaaaat tcgcagtccc caacctccaa tcactcacca acctcttgtc
+      301 ctccaatttg tcctggctat cgctggatgt gtctgcggcg ttttatcata ttcctcttca
+      361 tcctgttgct atgcctcatc ttcttgttgg ttcttctgga ctaccaaggt atgttgcccg
+      421 tttgtcctct gcttccagga acatcaacta ccagcacggg accatgcaag acctgcacga
+      481 ttcctgctca aggaacctct atgtttccct cttgttgctg tacaaaacct tcggacggaa
+      541 actgcacttg tattcccatc ccatcatcct gggctttcgc aagattccta tgggagtggg
+      601 cctcagtccg tttctcatgg ctcagtttac tagcgccatt tgttcagtgg ttcgtagggc
+      661 tttcccccac tgtttggctt tcagttatgt ggatgatgtg gtattggggg ccaagtctgt
+      721 acaacacctt gaggcccttt ttacctctat taccaatttt cttttttctt tgggtataca
+      781 tttgaaccct aataaaacca aacgttgggg ctactccctt aactttatgg gatatgtaat
+      841 tggaagttgg ggtactttac cacaagaaca tattgtacaa aaaatcaagc aatgttttcg
+      901 aaaactgcct gtaaatagac ctattgattg gaaagtatgt caaagaattg tgggtctttt
+      961 gggctttgct gcccctttta cacaatgtgg ctatcctgcc ttgatgcctt tatatgcatg
+     1021 tatacaatct aagcaggctt tcactttctc gccaacttac aaggcctttc tgtgtaaaca
+     1081 atatctgaac ctttaccccg ttgcccggca acggccaggt ctttgccaag tgtttgctga
+     1141 tgcaaccccc actggatggg gcttggccat aggccatcgg cgcatgcgtg gaacctttgt
+     1201 ggctcctctg ccgatccata ctgcggaact cctagcagct tgttttgctc gcagccggtc
+     1261 tggagcgaaa cttatcggca ccgacaactc tgttgtcctc tctcggaaat acacctcctt
+     1321 tccatggctg ctagggtgtg ctgccaactg gatcctgcgc gggacgtcct ttgtctacgt
+     1381 cccgtcggcg ctgaatcccg cggacgaccc gtctcggggc cgtttgggac tctatcgtcc
+     1441 cctccttcat ctgccgttcc ggccgaccac ggggcgcacc tctctttacg cggtctcccc
+     1501 gtctgtgcct tctcatctgc cggaccgtgt gcacttcgct tcacctctgc acgtcgcatg
+     1561 gagaccaccg tgaacgcccg ccaggtcttg cccaaggtct tatataagag gactcttgga
+     1621 ctctcagcaa tgtcaacgac cgaccttgag gcatacttca aagactgtgt gtttaaagac
+     1681 tgggaggagt tgggggagga gattaggtta atgatctttg tactaggagg ctgtaggcat
+     1741 aaattggtct gttcaccagc accatgcaac tttttcacct ctgcctaatc atctcatgtt
+     1801 catgtcctac tgttcaagcc tccaagctgt gccttgggtg gctttggggc atggacattg
+     1861 acccatataa agaatttgga gcttctgtgg agttactctc ttttttgcct tctgacttct
+     1921 ttccttctat tcgagatctc ctcgacaccg cctcagccct atatcgggag gccttagagt
+     1981 ctccggaaca ttgttcacct caccatacag cactccggca agctattctg tgttggggtg
+     2041 agttgatgaa tctggccact tgggtgggaa gtaatttgga agacccagca tcccgggaat
+     2101 tagtagtcag ctatgtcaac gttaatatgg gcctgaaaat cagacaacta ttgtggtttc
+     2161 acatttcctg tcttactttt ggaagagaaa ctgttcttga gtatttggtg tcttttggag
+     2221 tgtggattcg cactcctccc gcttacagac caccaaatgc ccctatccta tcaacacttc
+     2281 cggaaactac tgttgttaga tgtcgaggca ggacccctag aagaagaact ccctcgcctc
+     2341 gcagacgaag gtctcaatcg ccgcgtcgca gaagatctca atctcgggaa tctcaatgtt
+     2401 agtatccctt ggactcataa ggtgggaaac tttactgggc tttattcttc tactgtacct
+     2461 gtctttaatc ctgagtggca aactccctcc tttcctcaca ttcatttaca ggaggacatt
+     2521 attaatagat gtcaacaata tgtaggccct cttacagtta atgaaaaaag gagattaaaa
+     2581 ttaattatgc ctgctaggtt ctatcctaac cttaccaaat atttgccctt ggataaaggc
+     2641 attaaaccgt attatcctga aaatgcagtt aatcattact tcaaaactag gcattattta
+     2701 catactctgt ggaaggctgg cattctatat aagagagaaa ctacacgcag cgcctcattt
+     2761 tgtgggtcac catattcttg ggaacaagag ctacagcatg ggaggttggt cttccaaacc
+     2821 tcgacaaggc atggggacga atctttctgt tcccaatcct ctgggattcc ttcccgatca
+     2881 ccagttggac cctgcgttcg gagccaactc aaacaatcca gattgggact tcaaccccaa
+     2941 aaaggatcac tggccagagg caaatcaggt aggagcggga gcattcggat cagggttcac
+     3001 cccaccacac ggcggtcttt tggggtggag ccctcaggct cagggcatat tgacagcagt
+     3061 gccagcagca cctcctcctg cctccaccaa tcggcagtca gggagacagc ctactcccat
+     3121 ctctccacct ctaagagaca gtcatcctca ggccatgcag tggaa
+//
