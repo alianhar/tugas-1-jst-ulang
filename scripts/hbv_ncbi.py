@@ -19,6 +19,7 @@ import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field
 
+from Bio.Seq import Seq
 from defusedxml import ElementTree as DET
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
@@ -80,8 +81,32 @@ def efetch_genbank(uids: list[str]) -> str:
 _GENOTYPE_RE = re.compile(r"genotype\s*[:=]?\s*([A-Ja-j])(?![A-Za-z])")
 _RECOMB_RE = re.compile(r"recombinant|genotype\s*[:=]?\s*[A-Ja-j]\s*/\s*[A-Ja-j]",
                         re.IGNORECASE)
+# Rekombinasi sering HANYA disebut di judul publikasi, tidak di /note. Contoh
+# nyata yang lolos filter berbasis /note: HQ231877-HQ231884, ber-note
+# "genotype: G" tetapi berasal dari publikasi "A novel complex a/c/g
+# intergenotypic recombinant of hepatitis B virus isolated in southern China";
+# kedelapannya terdeteksi sebagai genotipe A oleh verifikasi tahap 4.
+#
+# Namun judul publikasi TIDAK dipakai sebagai dasar pengecualian, karena
+# terbukti terlalu kasar: 55 rekaman genotipe E ikut terbuang hanya karena
+# publikasinya berjudul "Deletions and recombinations in the CORE region ..."
+# -- rekombinasi di region core tidak menyentuh gen S maupun gen P. Judul
+# publikasi karena itu hanya menjadi PENANDA, dan pengecualian baru dilakukan
+# bila penanda itu dikuatkan bukti per-rekaman dari verifikasi tahap 4.
+_RECOMB_PUB_RE = re.compile(
+    r"recombinant|recombination|intergenotypic|inter-genotypic|chimeric",
+    re.IGNORECASE)
 
 VALID_GENOTYPES = tuple("ABCDEFGH")
+
+
+def pub_recomb_flag(record) -> str:
+    """Judul publikasi pertama yang menyebut rekombinasi, atau string kosong."""
+    for ref in record.annotations.get("references", []):
+        title = getattr(ref, "title", None)
+        if title and _RECOMB_PUB_RE.search(title):
+            return title.strip()
+    return ""
 
 
 def parse_genotype(notes: list[str], description: str) -> tuple[str | None, str]:
@@ -154,6 +179,28 @@ def span_positions(feature) -> set[int]:
     return pos
 
 
+def ordered_coords(feature) -> list[int]:
+    """Koordinat genom dalam URUTAN BACA CDS (bukan urutan numerik).
+
+    Diperlukan karena CDS HBV sering memakai compound location join(x..akhir,
+    1..y) akibat genom yang sirkular. Urutan ini yang memungkinkan pembentukan
+    subregion (mis. bagian gen P di luar gen S) tanpa merusak arah baca.
+    """
+    coords: list[int] = []
+    for part in feature.location.parts:
+        rng = range(int(part.start), int(part.end))
+        coords.extend(reversed(rng) if part.strand == -1 else rng)
+    return coords
+
+
+def extract_ordered(record, coords: list[int], strand: int) -> str:
+    """Rakit sekuens dari daftar koordinat terurut hasil ordered_coords()."""
+    seq = "".join(str(record.seq[i]) for i in coords).upper()
+    if strand == -1:
+        seq = str(Seq(seq).complement())
+    return seq
+
+
 @dataclass
 class Curated:
     """Hasil pemeriksaan satu rekaman genom."""
@@ -176,9 +223,12 @@ class Curated:
     P_partial: bool = False
     S_nonacgt: int = 0
     P_nonacgt: int = 0
+    PnonS_seq: str = ""
+    PnonS_len: int = 0
     overlap_frac: float = 0.0
     country: str = ""
     collection_date: str = ""
+    pub_recomb: str = ""
     url: str = ""
     eligible: bool = False
     reasons: list[str] = field(default_factory=list)
@@ -204,6 +254,7 @@ def curate(record) -> Curated:
                          or f.qualifiers.get("country") or [""])[0]
             c.collection_date = f.qualifiers.get("collection_date", [""])[0]
 
+    c.pub_recomb = pub_recomb_flag(record)
     genotype, why = parse_genotype(src_notes, record.description)
     c.subgenotype = parse_subgenotype(src_notes)
     if genotype:
@@ -242,6 +293,23 @@ def curate(record) -> Curated:
         sset, pset = span_positions(s_cds), span_positions(p_cds)
         if sset:
             c.overlap_frac = len(sset & pset) / len(sset)
+
+        # Dataset 4: bagian gen P yang TIDAK tertutup gen S. Dipakai sebagai
+        # pembanding agar kontribusi region gen S dan region gen P non-S dapat
+        # dipisahkan; tanpa ini perbandingan Dataset 2 vs 3 sulit ditafsirkan
+        # karena gen S bersarang seluruhnya di dalam gen P.
+        strand = p_cds.location.strand
+        p_coords = ordered_coords(p_cds)
+        # Uji mandiri: perakitan ulang lewat koordinat terurut harus identik
+        # dengan hasil Biopython. Jika tidak, logika urutan baca salah.
+        if extract_ordered(record, p_coords, strand) != c.P_seq:
+            c.reasons.append("perakitan koordinat terurut gen P tidak konsisten")
+        else:
+            kept = [i for i in p_coords if i not in sset]
+            c.PnonS_seq = extract_ordered(record, kept, strand)
+            c.PnonS_len = len(c.PnonS_seq)
+            if _NON_ACGT.search(c.PnonS_seq):
+                c.reasons.append("region gen P non-S memuat basa non-ACGT")
 
     c.eligible = not c.reasons
     return c

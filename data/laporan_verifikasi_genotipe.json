@@ -1,0 +1,184 @@
+{
+  "rujukan": {
+    "dipakai_gen_S": 12,
+    "label_literatur_vs_ncbi": "16/16",
+    "cakupan_per_genotipe": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1
+    }
+  },
+  "bentrok_rujukan_sampel": [
+    "AP007264.1",
+    "AY090460.1"
+  ],
+  "metode_A": {
+    "konkordansi": "298/300",
+    "persen": 99.33,
+    "per_genotipe": {
+      "A": "45/45",
+      "B": "44/45",
+      "C": "45/45",
+      "D": "45/45",
+      "E": "45/45",
+      "F": "45/45",
+      "G": "14/15",
+      "H": "15/15"
+    },
+    "margin_min": 2.0,
+    "margin_median": 142.0,
+    "tidak_konkordan": [
+      [
+        "EU939681.1",
+        "B",
+        "D",
+        "188"
+      ],
+      [
+        "KP274926.1",
+        "G",
+        "A",
+        "88"
+      ]
+    ]
+  },
+  "metode_B": {
+    "k": 7,
+    "monofili": {
+      "A": {
+        "anggota": 47,
+        "isi_klad": 48,
+        "asing": 1,
+        "kemurnian": 0.9792,
+        "rujukan_di_dalam": 2
+      },
+      "B": {
+        "anggota": 47,
+        "isi_klad": 249,
+        "asing": 202,
+        "kemurnian": 0.1888,
+        "rujukan_di_dalam": 2
+      },
+      "C": {
+        "anggota": 46,
+        "isi_klad": 46,
+        "asing": 0,
+        "kemurnian": 1.0,
+        "rujukan_di_dalam": 1
+      },
+      "D": {
+        "anggota": 47,
+        "isi_klad": 48,
+        "asing": 1,
+        "kemurnian": 0.9792,
+        "rujukan_di_dalam": 2
+      },
+      "E": {
+        "anggota": 46,
+        "isi_klad": 46,
+        "asing": 0,
+        "kemurnian": 1.0,
+        "rujukan_di_dalam": 1
+      },
+      "F": {
+        "anggota": 47,
+        "isi_klad": 47,
+        "asing": 0,
+        "kemurnian": 1.0,
+        "rujukan_di_dalam": 2
+      },
+      "G": {
+        "anggota": 16,
+        "isi_klad": 155,
+        "asing": 139,
+        "kemurnian": 0.1032,
+        "rujukan_di_dalam": 1
+      },
+      "H": {
+        "anggota": 16,
+        "isi_klad": 16,
+        "asing": 0,
+        "kemurnian": 1.0,
+        "rujukan_di_dalam": 1
+      }
+    },
+    "satu_nn": {
+      "total": "309/312",
+      "persen": 99.04,
+      "per_genotipe": {
+        "A": "47/47",
+        "B": "45/47",
+        "C": "46/46",
+        "D": "47/47",
+        "E": "46/46",
+        "F": "47/47",
+        "G": "15/16",
+        "H": "16/16"
+      }
+    },
+    "klad_murni": {
+      "A": {
+        "klad_murni_terbesar": 24,
+        "anggota": 47,
+        "cakupan": 0.5106
+      },
+      "B": {
+        "klad_murni_terbesar": 45,
+        "anggota": 47,
+        "cakupan": 0.9574
+      },
+      "C": {
+        "klad_murni_terbesar": 46,
+        "anggota": 46,
+        "cakupan": 1.0
+      },
+      "D": {
+        "klad_murni_terbesar": 3,
+        "anggota": 47,
+        "cakupan": 0.0638
+      },
+      "E": {
+        "klad_murni_terbesar": 46,
+        "anggota": 46,
+        "cakupan": 1.0
+      },
+      "F": {
+        "klad_murni_terbesar": 47,
+        "anggota": 47,
+        "cakupan": 1.0
+      },
+      "G": {
+        "klad_murni_terbesar": 15,
+        "anggota": 16,
+        "cakupan": 0.9375
+      },
+      "H": {
+        "klad_murni_terbesar": 16,
+        "anggota": 16,
+        "cakupan": 1.0
+      }
+    }
+  },
+  "pengecualian": {
+    "ditandai_publikasi": 158,
+    "tidak_konkordan": 2,
+    "baru_lintasan_ini": [],
+    "dikecualikan_total": [
+      "HQ231877.1",
+      "HQ231878.1",
+      "HQ231879.1",
+      "HQ231880.1",
+      "HQ231881.1",
+      "HQ231882.1",
+      "HQ231883.1",
+      "HQ231884.1",
+      "HQ231885.1"
+    ],
+    "konvergen": true
+  }
+}

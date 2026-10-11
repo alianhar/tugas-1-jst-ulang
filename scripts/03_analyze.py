@@ -39,7 +39,8 @@ def head(title: str) -> None:
 # ---------------------------------------------------------------------------
 head("1. Integritas berkas FASTA")
 sets = {}
-for name in ("dataset1_genS", "dataset2_genP", "dataset3_genS_genP"):
+for name in ("dataset1_genS", "dataset2_genP", "dataset3_genS_genP",
+             "dataset4_genP_nonS"):
     recs = list(SeqIO.parse(PROC / f"{name}.fasta", "fasta"))
     sets[name] = recs
     print(f"  {name}.fasta: {len(recs)} sekuens, "
@@ -53,8 +54,10 @@ for r in sets["dataset3_genS_genP"]:
     d3[acc].add(gene.split("=")[1])
 
 unpaired = [a for a, genes in d3.items() if genes != {"S", "P"}]
+d4_ids = {r.id.split("|")[0] for r in sets["dataset4_genP_nonS"]}
 print(f"  accession identik antara dataset1 & dataset2 : {d1_ids == d2_ids}")
 print(f"  accession dataset3 == dataset1               : {set(d3) == d1_ids}")
+print(f"  accession dataset4 == dataset1               : {d4_ids == d1_ids}")
 print(f"  accession di dataset3 tanpa pasangan S+P     : {len(unpaired)}")
 dup_hdr = [k for k, v in Counter(r.id for r in sets["dataset3_genS_genP"]).items() if v > 1]
 print(f"  header duplikat di dataset3                  : {len(dup_hdr)}")
@@ -104,6 +107,19 @@ print(f"\n  => Dataset 3 total bp = {ov.S_bp.sum() + ov.P_bp.sum():,}")
 print(f"     informasi nukleotida unik (union)          = {ov.union_bp.sum():,}")
 print(f"     redundansi Dataset 3 vs Dataset 2          = "
       f"{ov.S_bp.sum() / (ov.S_bp.sum() + ov.P_bp.sum()) * 100:.2f}% bp terduplikasi")
+# Uji Dataset 4: panjang gen S + panjang region P non-S harus == panjang gen P
+len_s = {r.id.split("|")[0]: len(r.seq) for r in sets["dataset1_genS"]}
+len_p = {r.id.split("|")[0]: len(r.seq) for r in sets["dataset2_genP"]}
+len_pn = {r.id.split("|")[0]: len(r.seq) for r in sets["dataset4_genP_nonS"]}
+konsisten = sum(1 for a in len_s if len_s[a] + len_pn[a] == len_p[a])
+print(f"\n  Dataset 4 -- uji |gen S| + |gen P non-S| == |gen P| : "
+      f"{konsisten}/{len(len_s)}")
+print(f"  panjang region gen P non-S: min {min(len_pn.values())} | "
+      f"maks {max(len_pn.values())} bp")
+out["dataset4"] = {"uji_panjang_konsisten": f"{konsisten}/{len(len_s)}",
+                   "panjang_min": min(len_pn.values()),
+                   "panjang_maks": max(len_pn.values())}
+
 out["overlap"] = {
     "rekaman_S_penuh_di_dalam_P": n_full, "total_rekaman": len(ov),
     "union_sama_dengan_P": int((ov.union_bp == ov.P_bp).sum()),

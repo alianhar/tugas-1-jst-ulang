@@ -1,7 +1,7 @@
 {
   "rekaman_diunduh": 2309,
-  "rekaman_layak": 902,
-  "rekaman_dataset_final": 310,
+  "rekaman_layak": 894,
+  "rekaman_dataset_final": 302,
   "distribusi_genotipe": {
     "A": 45,
     "B": 45,
@@ -9,16 +9,17 @@
     "D": 45,
     "E": 45,
     "F": 45,
-    "G": 24,
+    "G": 16,
     "H": 16
   },
   "sebab_penolakan": {
     "anotasi gen S tidak ada": 573,
     "anotasi gen P tidak ada": 342,
+    "region gen P non-S memuat basa non-ACGT": 265,
     "panjang gen S di luar rentang": 237,
     "gen P memuat 1 basa non-ACGT": 170,
     "genotipe tidak tercantum": 146,
-    "gen S duplikat": 143,
+    "gen S duplikat": 142,
     "gen S memuat 1 basa non-ACGT": 115,
     "gen P memuat 2 basa non-ACGT": 66,
     "gen S memuat 2 basa non-ACGT": 43,
@@ -34,6 +35,7 @@
     "gen P memuat 9 basa non-ACGT": 10,
     "gen P memuat 7 basa non-ACGT": 9,
     "gen S memuat 6 basa non-ACGT": 9,
+    "ditolak verifikasi tahap 4": 9,
     "gen P memuat 26 basa non-ACGT": 8,
     "CDS gen P parsial": 7,
     "gen P memuat 10 basa non-ACGT": 6,
@@ -87,11 +89,16 @@
     "max": 2538,
     "modus": 2532
   },
+  "gen_P_nonS_panjang": {
+    "min": 1317,
+    "max": 1368,
+    "modus": 1329
+  },
   "overlap_S_dalam_P": {
     "min": 1.0,
     "max": 1.0,
     "rerata": 1.0,
-    "jumlah_overlap_penuh": 310
+    "jumlah_overlap_penuh": 302
   },
   "target_per_genotipe": 45,
   "seed": 20251011

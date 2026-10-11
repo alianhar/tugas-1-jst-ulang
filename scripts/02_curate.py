@@ -55,6 +55,25 @@ def main() -> None:
         curated.append(curate(rec))
     print(f"  terparse: {len(curated)} | gagal parse: {parse_fail}")
 
+    # Pengecualian berbasis bukti dari tahap 4 (opsional; kosong pada lintasan
+    # pertama). Berisi rekaman yang DUA sinyal independen sepakat salah label:
+    # publikasinya menyebut rekombinasi DAN verifikasi rujukan-terdekat
+    # menolak labelnya. Lihat scripts/04_verify_genotype.py.
+    exc_path = ROOT / "data" / "pengecualian_verifikasi.json"
+    excluded = set()
+    if exc_path.exists():
+        excluded = set(json.loads(exc_path.read_text())["accession_version"])
+        n = 0
+        for c in curated:
+            if c.version in excluded and c.eligible:
+                c.eligible = False
+                c.reasons.append("ditolak verifikasi tahap 4 "
+                                 "(rekombinan terkonfirmasi 2 sinyal)")
+                n += 1
+        print(f"  dikecualikan oleh verifikasi tahap 4: {n}")
+    else:
+        print("  (daftar pengecualian tahap 4 belum ada -- lintasan pertama)")
+
     # --- deduplikasi ------------------------------------------------------
     # Keunikan dituntut pada gen S saja, gen P saja, DAN pasangannya.
     # Alasan: deduplikasi hanya pada pasangan (S,P) menyisakan rekaman dengan
@@ -137,9 +156,12 @@ def main() -> None:
             "anotasi_gen_P": "Ada" if c.has_P else "Tidak ada",
             "panjang_gen_P_bp": c.P_len or "",
             "lokasi_gen_P": c.P_loc,
+            "panjang_gen_P_nonS_bp": c.PnonS_len or "",
             "fraksi_S_overlap_P": round(c.overlap_frac, 4) if c.has_S and c.has_P else "",
             "negara": c.country,
             "tanggal_koleksi": c.collection_date,
+            "indikasi_rekombinan_publikasi": "Ya" if c.pub_recomb else "Tidak",
+            "judul_publikasi_rekombinan": c.pub_recomb,
             "tautan_ncbi": c.url,
             "status_kelayakan": "Layak" if c.eligible else "Tidak layak",
             "alasan_tidak_layak": "; ".join(c.reasons),
@@ -156,7 +178,7 @@ def main() -> None:
 
     # --- berkas FASTA -----------------------------------------------------
     def fasta_block(c, gene: str) -> str:
-        seq = c.S_seq if gene == "S" else c.P_seq
+        seq = {"S": c.S_seq, "P": c.P_seq, "P_nonS": c.PnonS_seq}[gene]
         head = f">{c.version}|Genotype={c.genotype}|Gene={gene}"
         body = "\n".join(seq[i:i + WRAP] for i in range(0, len(seq), WRAP))
         return f"{head}\n{body}\n"
@@ -164,17 +186,22 @@ def main() -> None:
     d1 = "".join(fasta_block(c, "S") for c in selected)
     d2 = "".join(fasta_block(c, "P") for c in selected)
     d3 = "".join(fasta_block(c, "S") + fasta_block(c, "P") for c in selected)
+    d4 = "".join(fasta_block(c, "P_nonS") for c in selected)
     (PROC / "dataset1_genS.fasta").write_text(d1, encoding="utf-8")
     (PROC / "dataset2_genP.fasta").write_text(d2, encoding="utf-8")
     (PROC / "dataset3_genS_genP.fasta").write_text(d3, encoding="utf-8")
+    (PROC / "dataset4_genP_nonS.fasta").write_text(d4, encoding="utf-8")
     print(f"  dataset1_genS.fasta        : {len(selected)} sekuens")
     print(f"  dataset2_genP.fasta        : {len(selected)} sekuens")
     print(f"  dataset3_genS_genP.fasta   : {len(selected) * 2} sekuens "
           f"({len(selected)} pasang)")
+    print(f"  dataset4_genP_nonS.fasta   : {len(selected)} sekuens "
+          f"(pembanding, region gen P di luar gen S)")
 
     # --- ringkasan untuk laporan -----------------------------------------
     s_lens = [c.S_len for c in selected]
     p_lens = [c.P_len for c in selected]
+    pn_lens = [c.PnonS_len for c in selected]
     overlaps = [c.overlap_frac for c in selected]
     summary = {
         "rekaman_diunduh": len(files),
@@ -186,6 +213,8 @@ def main() -> None:
                           "modus": Counter(s_lens).most_common(1)[0][0]},
         "gen_P_panjang": {"min": min(p_lens), "max": max(p_lens),
                           "modus": Counter(p_lens).most_common(1)[0][0]},
+        "gen_P_nonS_panjang": {"min": min(pn_lens), "max": max(pn_lens),
+                               "modus": Counter(pn_lens).most_common(1)[0][0]},
         "overlap_S_dalam_P": {
             "min": round(min(overlaps), 4), "max": round(max(overlaps), 4),
             "rerata": round(sum(overlaps) / len(overlaps), 4),
@@ -199,6 +228,7 @@ def main() -> None:
     print("\n== Statistik kunci ==")
     print(f"  panjang gen S : {summary['gen_S_panjang']}")
     print(f"  panjang gen P : {summary['gen_P_panjang']}")
+    print(f"  panjang gen P non-S : {summary['gen_P_nonS_panjang']}")
     print(f"  overlap S di dalam P : {summary['overlap_S_dalam_P']}")
 
 

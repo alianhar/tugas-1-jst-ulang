@@ -1,8 +1,8 @@
 {
   "integritas": {
-    "dataset1": 310,
-    "dataset2": 310,
-    "dataset3": 620,
+    "dataset1": 302,
+    "dataset2": 302,
+    "dataset3": 604,
     "pasangan_tidak_lengkap": 0,
     "header_duplikat": 0
   },
@@ -13,34 +13,39 @@
     "D": 45,
     "E": 45,
     "F": 45,
-    "G": 24,
+    "G": 16,
     "H": 16
   },
   "rasio_ketidakseimbangan": 2.812,
-  "baseline_mayoritas_persen": 14.52,
+  "baseline_mayoritas_persen": 14.9,
+  "dataset4": {
+    "uji_panjang_konsisten": "302/302",
+    "panjang_min": 1317,
+    "panjang_maks": 1368
+  },
   "overlap": {
-    "rekaman_S_penuh_di_dalam_P": 310,
-    "total_rekaman": 310,
-    "union_sama_dengan_P": 310,
+    "rekaman_S_penuh_di_dalam_P": 302,
+    "total_rekaman": 302,
+    "union_sama_dengan_P": 302,
     "rerata_S_diluar_P_bp": 0.0,
-    "total_bp_dataset3": 1154028,
-    "total_bp_unik_union": 783273,
-    "persen_bp_redundan": 32.13
+    "total_bp_dataset3": 1124148,
+    "total_bp_unik_union": 763017,
+    "persen_bp_redundan": 32.12
   },
   "keutuhan_cds": {
-    "S_total": 310,
-    "S_kelipatan3": 310,
-    "S_start_ATG": 310,
-    "S_stop_diakhir": 310,
-    "P_total": 310,
-    "P_kelipatan3": 310,
-    "P_start_ATG": 310,
-    "P_stop_diakhir": 310
+    "S_total": 302,
+    "S_kelipatan3": 302,
+    "S_start_ATG": 302,
+    "S_stop_diakhir": 302,
+    "P_total": 302,
+    "P_kelipatan3": 302,
+    "P_start_ATG": 302,
+    "P_stop_diakhir": 302
   },
   "kemiripan": {
     "S": {
       "identik_persis": 0,
-      "pasangan_jaccard_di_atas_0_95": 54,
+      "pasangan_jaccard_di_atas_0_95": 43,
       "jaccard_maksimum": 0.9801,
       "pasangan_termirip": [
         "EU306700.1",
@@ -49,7 +54,7 @@
     },
     "P": {
       "identik_persis": 0,
-      "pasangan_jaccard_di_atas_0_95": 45,
+      "pasangan_jaccard_di_atas_0_95": 33,
       "jaccard_maksimum": 0.9905,
       "pasangan_termirip": [
         "FJ709458.2",
@@ -61,17 +66,19 @@
     "anotasi gen S tidak ada": 573,
     "gen P memuat N basa non-ACGT": 413,
     "anotasi gen P tidak ada": 342,
+    "region gen P non-S memuat basa non-ACGT": 265,
     "gen S memuat N basa non-ACGT": 259,
     "panjang gen S di luar rentang (N bp)": 237,
     "genotipe tidak tercantum": 146,
-    "gen S duplikat dengan rekaman lain": 143,
+    "gen S duplikat dengan rekaman lain": 142,
     "panjang gen P di luar rentang (N bp)": 38,
     "rekombinan/antar-genotipe": 38,
+    "ditolak verifikasi tahap N (rekombinan terkonfirmasi N sinyal)": 9,
     "CDS gen P parsial": 7,
     "CDS gen S parsial": 3,
     "genotipe ambigu (A/E)": 1
   },
   "jumlah_diperiksa": 2309,
-  "jumlah_layak": 902,
-  "jumlah_dataset_final": 310
+  "jumlah_layak": 894,
+  "jumlah_dataset_final": 302
 }
